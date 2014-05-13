@@ -6573,6 +6573,10 @@ body[class*="landing"].ie8 input[type="text"],body[class*="landing"].ie8 input[t
         display: block!important;
         margin: 20px auto!important;
     }
+    
+    .social-inline .linkedin a {
+        display: none;
+    }
 }
 
 .error404 {
