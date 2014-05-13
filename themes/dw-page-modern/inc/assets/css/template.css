@@ -5619,6 +5619,8 @@ div.thumbnail {
 .social-inline {
     list-style: none;
     margin: 0;
+    margin-top: 20px;
+    float: left;
 }
 
 .social-inline li {
@@ -5951,7 +5953,7 @@ body.page .page {
 
 .section {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     overflow: hidden;
 }
 
@@ -6035,7 +6037,8 @@ body.page .page {
 }
 
 .introducing {
-    text-align: center;
+    /*text-align: center;*/
+    text-align: justify;
 }
 
 .introducing .block {
@@ -6099,6 +6102,7 @@ body.page .page {
 
 .portfolio .screenshot,.section-blog .screenshot {
     position: relative;
+    padding-top: 9px;
 }
 
 .portfolio .carousel,.section-blog .carousel {

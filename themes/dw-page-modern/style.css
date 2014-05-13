@@ -325,7 +325,7 @@ input[type="color"],
 }
 
 .portfolio .thumbnail .caption {
-	padding: 5px 10px 20px;
+	/*padding: 5px 10px 20px;*/
 	max-width: 220px;
 	margin: 0 auto;
 	background: #fff;
@@ -794,6 +794,10 @@ body[class*="landing"] #colophon a:focus,
 
 .list-inline.social-inline .google_plus a:hover {
 	background: #DB4A39 !important;
+}
+
+.list-inline.social-inline .tumblr a:hover {
+	background: #304d6b !important;
 }
 
 .list-inline.social-inline .youtube a:hover {
