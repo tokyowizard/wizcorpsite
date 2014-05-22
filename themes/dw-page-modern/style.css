@@ -832,6 +832,38 @@ body[class*="landing"] #colophon a:focus,
 	background: #049CDB !important;
 }
 
+/* Social Footer
+-----------------*/ 
+.list-inline.social-inline-footer li a {
+	background: #ddd;
+	color: #fff;
+}
+
+.list-inline.social-inline-footer .facebook a:hover {
+	background: #0054A6 !important;
+}
+
+.list-inline.social-inline-footer .twitter a:hover {
+	background: #00AEEF !important;
+}
+
+.list-inline.social-inline-footer .google_plus a:hover {
+	background: #DB4A39 !important;
+}
+
+.list-inline.social-inline-footer .tumblr a:hover {
+	background: #304d6b !important;
+}
+
+.list-inline.social-inline-footer .youtube a:hover {
+	background: #C4302B !important;
+}
+
+.list-inline.social-inline-footer .linkedin a:hover {
+	background: #049CDB !important;
+}
+
+
 body[class*="landing"] .list-inline.social-inline li a,
 .error404 .list-inline.social-inline li a {
 	background: transparent;
