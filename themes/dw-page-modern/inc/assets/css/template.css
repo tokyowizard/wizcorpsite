@@ -6037,8 +6037,7 @@ body.page .page {
 }
 
 .introducing {
-    /*text-align: center;*/
-    text-align: justify;
+    text-align: center;
 }
 
 .introducing .block {
