@@ -20,6 +20,12 @@ body {
 	font-weight: lighter;
 }
 
+@media only screen and (max-width: 480px) {
+    body {
+	   background: url(../../images/header-bg-mob.jpg) fixed no-repeat top center;
+    }
+} 
+
 a {
 	color: #047ecc;
 }
@@ -128,9 +134,11 @@ input[type="color"],
 	color: #666;
 }
 
-.arrow-down {
-	background: url(img/arrow-down.png) no-repeat center 16px;
-	border-color: #fff;
+@media only screen and (max-width: 480px) {
+    .arrow-down {
+    	background: url(img/arrow-down.png) no-repeat center 16px;
+    	border-color: #fff;
+    }
 }
 
 .navbar .navbar-inner {
@@ -255,11 +263,27 @@ input[type="color"],
 	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
 }
 
+/*
 .header .hero-unit p {
 	font-size: 18px;
 	font-weight: 300;
 	color: #fff;
-	margin: 0 150px 30px;
+	margin: 150px 150px 30px;
+}*/
+
+.header .hero-unit p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	margin: 200px 150px 5px;
+	text-shadow: 1px 1px 3px rgba(238, 238, 238, 0.9);
+}
+
+@media only screen and (max-width: 480px) {
+    .header .hero-unit p {
+        color: #fff;
+        text-shadow: none;
+    }
 }
 
 .ie8 .header .hero-unit p,
