@@ -20,7 +20,7 @@ body {
 	font-weight: lighter;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 1024px) {
     body {
 	   background: url(../../images/header-bg-mob.jpg) fixed no-repeat top center;
     }
