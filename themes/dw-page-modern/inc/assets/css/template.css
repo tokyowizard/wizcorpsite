@@ -5607,7 +5607,7 @@ div.thumbnail {
 }
 
 [class*="arrow"] {
-    border: 2px solid #222;
+    /*border: 2px solid #222;*/
     text-indent: -9999px;
     display: block;
     margin-left: auto;
@@ -5616,11 +5616,21 @@ div.thumbnail {
     height: 40px;
 }
 
+@media only screen and (max-width: 480px) {
+    border: 2px solid #222;
+}
+
 .social-inline {
     list-style: none;
     margin: 0;
     margin-top: 20px;
     float: left;
+}
+
+@media only screen and (max-width: 480px) {
+    .social-inline {
+        display: none;
+   }
 }
 
 .social-inline li {
@@ -5668,6 +5678,61 @@ div.thumbnail {
 }
 
 .social-inline .linkedin a {
+    background: #049cdb;
+}
+
+.social-inline-footer {
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    float: left;
+}
+
+.social-inline-footer li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.social-inline-footer li a {
+    color: #fff;
+    background: #fff;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.social-inline-footer li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.social-inline-footer .facebook a {
+    background: #0054a6;
+}
+
+.social-inline-footer .twitter a {
+    background: #00aeef;
+}
+
+.social-inline-footer .google_plus a {
+    background: #db4a39;
+}
+
+.social-inline-footer .youtube a {
+    background: #c4302b;
+}
+
+.social-inline-footer .linkedin a {
     background: #049cdb;
 }
 
@@ -6032,13 +6097,12 @@ body.page .page {
 }
 
 .header .hero-unit .arrow-down {
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: -20px;
 }
 
 .introducing {
-    /*text-align: center;*/
-    text-align: justify;
+    text-align: center;
 }
 
 .introducing .block {
@@ -6435,13 +6499,13 @@ body.page .page {
 
 #colophon .copyright {
     border-top: 1px solid #333;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 10.5px;
     position: relative;
 }
 
-#colophon .social.social-inline li {
+#colophon .social.social-inline-footer li {
     margin-left: 2px;
 }
 

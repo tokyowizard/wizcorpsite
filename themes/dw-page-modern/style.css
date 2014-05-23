@@ -11,7 +11,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
-	background: url(img/header-bg2.jpg) fixed no-repeat top center;
+	background: url(../../images/header-bg.jpg) fixed no-repeat top center;
 	background-size: 100% auto; 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -19,6 +19,12 @@ body {
 	color: #333;
 	font-weight: lighter;
 }
+
+@media only screen and (max-width: 480px) and (max-device-width: 1024px) {
+    body {
+	   background: url(../../images/header-bg-mob.jpg) fixed no-repeat top center;
+    }
+} 
 
 a {
 	color: #047ecc;
@@ -128,9 +134,11 @@ input[type="color"],
 	color: #666;
 }
 
-.arrow-down {
-	background: url(img/arrow-down.png) no-repeat center 16px;
-	border-color: #fff;
+@media only screen and (max-width: 480px) {
+    .arrow-down {
+    	background: url(img/arrow-down.png) no-repeat center 16px;
+    	border-color: #fff;
+    }
 }
 
 .navbar .navbar-inner {
@@ -255,11 +263,27 @@ input[type="color"],
 	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
 }
 
+/*
 .header .hero-unit p {
 	font-size: 18px;
 	font-weight: 300;
 	color: #fff;
-	margin: 0 150px 30px;
+	margin: 150px 150px 30px;
+}*/
+
+.header .hero-unit p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	margin: 200px 150px 5px;
+	text-shadow: 1px 1px 3px rgba(238, 238, 238, 0.9);
+}
+
+@media only screen and (max-width: 480px) {
+    .header .hero-unit p {
+        color: #fff;
+        text-shadow: none;
+    }
 }
 
 .ie8 .header .hero-unit p,
@@ -807,6 +831,38 @@ body[class*="landing"] #colophon a:focus,
 .list-inline.social-inline .linkedin a:hover {
 	background: #049CDB !important;
 }
+
+/* Social Footer
+-----------------*/ 
+.list-inline.social-inline-footer li a {
+	background: #ddd;
+	color: #fff;
+}
+
+.list-inline.social-inline-footer .facebook a:hover {
+	background: #0054A6 !important;
+}
+
+.list-inline.social-inline-footer .twitter a:hover {
+	background: #00AEEF !important;
+}
+
+.list-inline.social-inline-footer .google_plus a:hover {
+	background: #DB4A39 !important;
+}
+
+.list-inline.social-inline-footer .tumblr a:hover {
+	background: #304d6b !important;
+}
+
+.list-inline.social-inline-footer .youtube a:hover {
+	background: #C4302B !important;
+}
+
+.list-inline.social-inline-footer .linkedin a:hover {
+	background: #049CDB !important;
+}
+
 
 body[class*="landing"] .list-inline.social-inline li a,
 .error404 .list-inline.social-inline li a {
