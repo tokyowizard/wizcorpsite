@@ -283,6 +283,7 @@ input[type="color"],
     .header .hero-unit p {
         color: #fff;
         text-shadow: none;
+        margin: 50px 150px 5px;
     }
 }
 
