@@ -16,10 +16,10 @@ Here lies the Wizcorp Website.
 
 Please post an issue for any bugs you may find. What is a bug?:
 
-- Broken layout on a specific device
+- Broken layout on a specific device (please name device / browser and steps to reproduce if required)
 - Spelling / grammar errors
 
-** Note at this point we prefer people do not post feature requests or design alteration requests on the issue list at this time.** 
+**Note at this point we prefer people do not post feature requests or design alteration requests on the issue list at this time.** 
 
 If you have requests of this matter please speak to the website team on HipChat (wizcorp website room).
 
