@@ -10,7 +10,7 @@ Here lies the Wizcorp Website.
  	- Jekyll [http://jekyllrb.com/](http://jekyllrb.com/) 
 - Fork this repository and clone it onto your local machine
 - To test the website locally run: `jekyll -w serve`
-- Open your browser of choice and navigate to [http://locahost:4000](http://locahost:4000)
+- Open your browser of choice and navigate to [http://localhost:4000](http://localhost:4000)
 
 ### Bug Reporting
 
