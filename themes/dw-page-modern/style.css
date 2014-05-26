@@ -26,6 +26,16 @@ body {
     }
 } 
 
+.error-page{
+    background: url(../../images/flying.jpg) fixed no-repeat top center;
+}
+
+@media only screen and (max-width: 480px) {
+    .error-page{
+        background: url(../../images/flying-mob.jpg) fixed no-repeat top center;
+    }
+} 
+
 a {
 	color: #047ecc;
 }
