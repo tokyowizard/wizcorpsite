@@ -158,7 +158,7 @@ jQuery(function($){
  */
 function goToSectionID(des){
 	if (des === "../" || des === "ja/") {
-		window.location = window.location.origin + "/" + des;
+		window.location = window.location.origin + window.location.pathname + des;
 		return;
 	}
 
