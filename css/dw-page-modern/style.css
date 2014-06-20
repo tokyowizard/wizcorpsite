@@ -541,7 +541,7 @@ input[type="color"],
 	position: absolute;
 }
 
-@media only screen and (max-width: 786px) and (max-device-width: 1024px) {
+@media (max-width: 979px) and (min-width: 768px) {
     .about .thumbnail > a {
 	   height: 100%;
 	   width: 100%;
@@ -552,7 +552,7 @@ input[type="color"],
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .about .thumbnail > a {
     	height: 180px;
     	width: 240px;
