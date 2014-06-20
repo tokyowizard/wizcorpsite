@@ -14,7 +14,7 @@
     },
     "tiki": {
         "title": "Tiki Takoo",
-        "content": "<i>Tiki Takoo</i>はシンプルで癖になるパズルゲームです。画面上部に表示されるtikiと同じ組み合わせのTikiを画面の中から探し出し、順番通りにタッチして消していきます。ゲームが進むごとに、探しだすTikiの数は多くなり難易度が上がっていきます。コンボやパワーアップまたはフィーバーモードを発動させることによりボーナス得点を獲得することができます。",
+        "content": "<i>Tiki Takoo</i>はシンプルで癖になるパズルゲームです。画面上部に表示されるTikiと同じ組み合わせのTikiを画面の中から探し出し、順番通りにタッチして消していきます。ゲームが進むごとに、探しだすTikiの数は多くなり難易度が上がっていきます。コンボやパワーアップまたはフィーバーモードを発動させることによりボーナス得点を獲得することができます。",
         "image": "<img src=\"../css/dw-page-modern/img/tikitakoo.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634784938/\" target=\"_blank\">Launch Project</a></span>"
     },
