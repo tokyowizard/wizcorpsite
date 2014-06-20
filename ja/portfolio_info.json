@@ -1,0 +1,27 @@
+{
+    "status": true,
+    "mage": {
+        "title": "MAGE",
+        "content": "MAGEとは: <br /><i>\"魔法を司るために鍛錬されたヒーロー\"</i><br /><br />または: <br />非同期ゲームエンジン のことである <br /> <br />MAGEを採用することにより、デベロッパーたちはこれまでの煩わしい作業から解放され、純粋なゲーム開発のみに注力することができます。<ul><li>安定した通信基盤</li><li>信頼できる一元化されたデータストレージ</li><li>いかなる状況下でも対応する高いパフォーマンスとスケーラビリティ</li><li>運用中にも頼れる更新環境</li><li>優れた開発環境</li></ul><br />MAGEにはソーシャルゲーム開発及びデプロイプロセスを容易にするために必須な要素が全て備わっています。<ul><li>格段に短い応答時間</li><li>イテレーションの短縮化</li><li>プレーヤー数が数百万を超えるゲームにも対応</li><li>HTML5との高い親和性</li><li>App storeを介さずに更新可能</li><li>運用中でもゲームをダウンさせることなくコードの書換が可能</li></ul>",
+        "image": "<img src=\"../css/dw-page-modern/img/mage.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Constant Development</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Node.js</span><span><i class=\"icon-share\"></i>n/a</span>"
+    },
+    "drs": {
+        "title": "Dead Rising - The Survival",
+        "content": "Dead RisingはCapcom社よりパブリッシュされたゾンビを敵に立ち向かうサバイバルゲームです。突如現れた制御不能なゾンビから街を守りぬかなければなりません。PvPでは相手に猛攻撃を与えたり、ゾンビを倒すために力を合わせることもできます。 <br /><br />Features: <ul> <li>ゲームエリアをアンロックするとそこにはサイコパスが待っている</li><li>数百を超えるゾンビミッション</li><li>収集した武器は倉庫に格納</li><li>PvPモードでは他のプレイヤーと競って重要アイテムを獲得</li><li>傭兵を雇って力を補強</li><li>アップグレードをしてベースキャンプを増強</li><li>ゾンビカジノで大儲け</li></ul>",
+        "image": "<img src=\"../uploads/2014/drs/screenshot.png\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Capcom / GREE</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Nov, 2012</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5</span><span><i class=\"icon-share\"></i>n/a</span>"
+    },
+    "tiki": {
+        "title": "Tiki Takoo",
+        "content": "<i>Tiki Takoo</i>はシンプルで癖になるパズルゲームです。画面上部に表示されるTikiと同じ組み合わせのTikiを画面の中から探し出し、順番通りにタッチして消していきます。ゲームが進むごとに、探しだすTikiの数は多くなり難易度が上がっていきます。コンボやパワーアップまたはフィーバーモードを発動させることによりボーナス得点を獲得することができます。",
+        "image": "<img src=\"../css/dw-page-modern/img/tikitakoo.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634784938/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "celulo": {
+        "title": "Celulo",
+        "content": "Celuloは難解でありながらもプレイヤーを夢中にするパズルゲームです。ゲームの名前にもなっているCeluloをひとつひとつつなぎあわせて、最終的に画面の端からもう一方の端をつなげた時にどれだけ長く複雑な回路を組むことをできるかがポイントまたはボーナス獲得のカギになります。 <br /> <br /> Celuloの洗練されたスタイルの背景に流れるアンビエント/エレクトロサウンドトラックと、シンプルかつ深いゲームプレイはプレイヤーを惹きつける空間を作りだします。Facebookと同期すれば友だちとウィークリートーナメントで対決することができます。",
+        "image": "<img src=\"../css/dw-page-modern/img/celulo.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634795239/\" target=\"_blank\">Launch Project</a></span>"
+    }
+}

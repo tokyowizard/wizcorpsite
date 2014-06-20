@@ -157,6 +157,11 @@ jQuery(function($){
  * @return void
  */
 function goToSectionID(des){
+	if (des === "../" || des === "ja/") {
+		window.location = window.location.origin + window.location.pathname + des;
+		return;
+	}
+
 	var os = (history.pushState)?51:0;
 	os = (jQuery(window).width()>800)?os:0;
 
