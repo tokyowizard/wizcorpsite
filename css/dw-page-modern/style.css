@@ -538,7 +538,7 @@ input[type="color"],
 	max-height: 180px;
 	max-width: 240px;
 	height: 100%;
-	width: 100%
+	width: 100%;
 	background: url(img/avatar-mask.png);
 	z-index: 10;
 	left: 0;
