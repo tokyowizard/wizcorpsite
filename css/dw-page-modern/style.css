@@ -834,6 +834,20 @@ body[class*="landing"] #colophon a:focus,
 	}
 }
 
+/* Company Info
+-----------------*/
+.company-info {
+	max-width: 50%;
+	margin: 0 auto 20px;
+}
+
+@media (max-width: 480px) {
+.company-info {
+	max-width: 100%;
+}
+
+
+
 /* Social 
 -----------------*/ 
 .list-inline.social-inline li a {
