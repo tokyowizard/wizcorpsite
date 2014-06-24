@@ -834,6 +834,7 @@ body[class*="landing"] #colophon a:focus,
 	}
 }
 
+
 /* Company Info
 -----------------*/
 .company-info {
@@ -842,8 +843,9 @@ body[class*="landing"] #colophon a:focus,
 }
 
 @media (max-width: 480px) {
-.company-info {
-	max-width: 100%;
+	.company-info {
+		max-width: 100%;
+	}
 }
 
 
