@@ -524,8 +524,10 @@ input[type="color"],
 	position: relative;
 	display: block;
 	background: #ccc;
-	height: 180px;
-	width: 240px;
+	max-height: 180px;
+	max-width: 240px;
+	height: 100%;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -533,35 +535,18 @@ input[type="color"],
 
 .about .thumbnail > a:before {
 	content: "";
-	height: 180px;
-	width: 240px;
-	background: url(img/avatar-mask.png);
+	max-height: 180px;
+	max-width: 240px;
+	height: 100%;
+	width: 100%;
+	background: url(img/avatar-mask.png) 50% 50%;
+	-webkit-background-size: 100% 100%; /* for android prior 2.x */
+	background-size: 100% 100%;
 	z-index: 10;
 	left: 0;
 	position: absolute;
 }
 
-@media (max-width: 979px) and (min-width: 768px) {
-    .about .thumbnail > a {
-	   height: 100%;
-	   width: 100%;
-	}
-	
-    .about .thumbnail > a:before {
-        background: none;
-    }
-}
-
-@media (max-width: 480px) {
-    .about .thumbnail > a {
-    	height: 180px;
-    	width: 240px;
-	}
-
-    .about .thumbnail > a:before {
-        background: url(img/avatar-mask.png);
-    }
-}
 
 .about .thumbnail .caption p {
 	margin: 10px 0;
