@@ -23,5 +23,17 @@
         "content": "Celuloは難解でありながらもプレイヤーを夢中にするパズルゲームです。ゲームの名前にもなっているCeluloをひとつひとつつなぎあわせて、最終的に画面の端からもう一方の端をつなげた時にどれだけ長く複雑な回路を組むことをできるかがポイントまたはボーナス獲得のカギになります。 <br /> <br /> Celuloの洗練されたスタイルの背景に流れるアンビエント/エレクトロサウンドトラックと、シンプルかつ深いゲームプレイはプレイヤーを惹きつける空間を作りだします。Facebookと同期すれば友だちとウィークリートーナメントで対決することができます。",
         "image": "<img src=\"../css/dw-page-modern/img/celulo.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634795239/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "infernal": {
+        "title": "Infernal Temple",
+        "content": "立ち向かってくるゾンビを倒しながら、できるだけ長距離を走ってハイスコアを目指すゲームです。8ビットのグラフィックでデザインされたレトロなプラットフォームゲームです。　ゲームセンターで友だちと競いあうこともできます。",
+        "image": "<img src=\"../css/dw-page-modern/img/img4_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id888222057/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "butchers": {
+        "title": "Butchers Escape",
+        "content": "子豚のマルセルがハムにされてしまわないよう助け出してあげるゲームです。障害物をうまく避けて進んでいくプラットフォームゲームです。ゲームセンターで友だちと競い合いながら、ハイスコアを目指しましょう。",
+        "image": "<img src=\"../css/dw-page-modern/img/img5_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id891618151/\" target=\"_blank\">Launch Project</a></span>"
     }
 }

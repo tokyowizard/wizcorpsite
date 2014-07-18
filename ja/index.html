@@ -10,11 +10,11 @@
         <link rel="stylesheet" type="text/css" media="all" href="../css/dw-page-modern/css/template.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../css/dw-page-modern/css/template-responsive.css" />
 
-        <link rel='stylesheet' id='bp-legacy-css-css'  	 href='../css/buddypress/buddypress.css' type='text/css' media='screen' />
+        <link rel='stylesheet' id='bp-legacy-css-css'    href='../css/buddypress/buddypress.css' type='text/css' media='screen' />
         <link rel='stylesheet' id='contact-form-7-css'   href='../css/contact-form-7/styles.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='dwqa-style-css'  	 href='../css/dw-question-answer/style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='dwqa-style-css'       href='../css/dw-question-answer/style.css' type='text/css' media='all' />
         <link rel='stylesheet' id='buddypress-style-css' href='../css/dw-page-modern/css/buddypress-custom.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='dw-page-qa-css'  	 href='../css/dw-page-modern/dwqa-templates/style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='dw-page-qa-css'       href='../css/dw-page-modern/dwqa-templates/style.css' type='text/css' media='all' />
         <script type='text/javascript' src='../js/jquery/jquery.js'></script>
         <script type='text/javascript' src='../js/jquery/jquery-migrate.min.js'></script>
 
@@ -37,10 +37,10 @@
         <![endif]-->
         <script type="text/javascript">
             jQuery( document ).ready( function() {
-            	jQuery( 'a.confirm').click( function() {
-            		if ( confirm( 'Are you sure?' ) )
-            			return true; else return false;
-            	});
+                jQuery( 'a.confirm').click( function() {
+                    if ( confirm( 'Are you sure?' ) )
+                        return true; else return false;
+                });
             });
         </script>
         <link rel="stylesheet" type="text/css" media="all" href="../css/dw-page-modern/style.css" />
@@ -160,70 +160,233 @@
                         <div class="portfolio post-399 post type-post status-publish format-standard hentry category-freelancing">
                             <div class="row-fluid">
                                 <div id="carousel-a6161818154d38515043175382750bef73de14be" data-interval="5000" class="carousel slide">
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <ul class="thumbnails">
-                                                <li class="span3 first block">
-                                                    <div class="thumbnail">
-                                                        <div class="screenshot">
-                                                            <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage" ><img src="../css/dw-page-modern/img/mage.jpg"></a>
-                                                        </div>
-                                                        <div class="caption">
-                                                            <h2 class="section-content-title">
-                                                                <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage">Mage</a>		            
-                                                            </h2>
-                                                            <p class="meta">Game Engine</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="span3 block">
-                                                    <div class="thumbnail">
-                                                        <div class="screenshot">
-                                                            <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs" ><img src="../css/dw-page-modern/img/deadrising.jpg"></a>
-                                                        </div>
-                                                        <div class="caption">
-                                                            <h2 class="section-content-title">
-                                                                <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs">Dead Rising - The Survival</a>		            
-                                                            </h2>
-                                                            <p class="meta">Game Design & Development</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="span3 block">
-                                                    <div class="thumbnail">
-                                                        <div class="screenshot">
-                                                            <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki" ><img src="../css/dw-page-modern/img/tikitakoo.jpg"></a>
-                                                        </div>
-                                                        <div class="caption">
-                                                            <h2 class="section-content-title">
-                                                                <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki">Tiki Takoo</a>		            
-                                                            </h2>
-                                                            <p class="meta">Game Design & Development</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="span3 block">
-                                                    <div class="thumbnail">
-                                                        <div class="screenshot">
-                                                            <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo" ><img src="../css/dw-page-modern/img/celulo.jpg"></a>
-                                                        </div>
-                                                        <div class="caption">
-                                                            <h2 class="section-content-title">
-                                                                <a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo">Celulo</a>		            
-                                                            </h2>
-                                                            <p class="meta">Game Design & Development</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                    <div id="carousel-inner" class="carousel-inner">
+                                    <script type="text/javascript">
+                                        var content;
+                                        if (window.innerWidth == 320) {
+                                            // Append mobile elements
+                                            content =
+                                            '<div class="item active">' +
+                                                '<ul class="thumbnails">' +
+                                                   ' <li class="span12 first block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage" ><img src="../css/dw-page-modern/img/mage.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage">Mage</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Game Engine</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>' +
+                                            '<div class="item">' +
+                                                '<ul class="thumbnails">' +
+                                                    '<li class="span12 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs" ><img src="../css/dw-page-modern/img/deadrising.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs">Dead Rising</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>' +
+                                            '<div class="item">' +
+                                                '<ul class="thumbnails">' +
+                                                    '<li class="span12 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki" ><img src="../css/dw-page-modern/img/tikitakoo.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki">Tiki Takoo</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>' +
+                                            '<div class="item">' +
+                                                '<ul class="thumbnails">' +
+                                                    '<li class="span12 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo" ><img src="../css/dw-page-modern/img/celulo.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo">Celulo</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>' +
+                                            '<div class="item">' +
+                                                '<ul class="thumbnails">' +
+                                                    '<li class="span12 first block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="infernal" ><img src="../css/dw-page-modern/img/img5_240x180.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="infernal">Infernal Temple</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>' +
+                                            '<div class="item">' +
+                                                '<ul class="thumbnails">' +
+                                                    '<li class="span12 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="butchers" ><img src="../css/dw-page-modern/img/img4_240x180.jpg"></a>' +
+                                                                '<div class="carousel-nav">' +
+                                                                    '<a class="carousel-control left" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="prev">‹</a>' +
+                                                                    '<a class="carousel-control right" href="#carousel-a6161818154d38515043175382750bef73de14be" data-slide="next">›</a>' +
+                                                                '</div>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="butchers">Butchers Escape</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                '</ul>' +
+                                            '</div>'
+
+                                        } else {
+                                            // Append non-mobile elements
+                                            content =
+                                            '<div class="item active">' +
+                                                '<ul class="thumbnails">' +
+                                                   ' <li class="span3 first block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage" ><img src="../css/dw-page-modern/img/mage.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="mage">Mage</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Game Engine</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                    '<li class="span3 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs" ><img src="../css/dw-page-modern/img/deadrising.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="drs">Dead Rising</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                    '<li class="span3 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki" ><img src="../css/dw-page-modern/img/tikitakoo.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="tiki">Tiki Takoo</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                    '<li class="span3 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo" ><img src="../css/dw-page-modern/img/celulo.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="celulo">Celulo</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                    '<li class="span3 first block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="infernal" ><img src="../css/dw-page-modern/img/img5_240x180.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="infernal">Infernal Temple</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                                    '<li class="span3 block">' +
+                                                        '<div class="thumbnail">' +
+                                                            '<div class="screenshot">' +
+                                                                '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="butchers" ><img src="../css/dw-page-modern/img/img4_240x180.jpg"></a>' +
+                                                            '</div>' +
+                                                            '<div class="caption">' +
+                                                                '<h2 class="section-content-title">' +
+                                                                    '<a href="#modal-a6161818154d38515043175382750bef73de14be" class="show-popup" data-post="butchers">Butchers Escape</a>' +
+                                                                '</h2>' +
+                                                                '<p class="meta">Design & Development</p>' +
+                                                            '</div>' +
+                                                        '</div>' +
+                                                    '</li>' +
+                                               '</ul>' +
+                                            '</div>' +
+                                            '<!-- end item -->'
+                                        }
+                                        var carousel = document.getElementById("carousel-inner");
+                                        carousel.innerHTML = content;
+                                    </script>
                                     </div>
-                                    <!-- 
                                     <div class="carousel-nav">
-                                        <ul>
-                                        </ul>
+                                        <ul></ul>
                                     </div>
-                                    Carousel nav -->
                                 </div>
                             </div>
                         </div>
@@ -363,7 +526,7 @@
                                 <div class="info span6">
                                     <p>プレスまたは採用についてのお問い合わせは、こちらからお願い致します。<br>現在募集中の職種は<a href="http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qQd9VfwR&jvprefix=http%3a%2f%2fwww.wizcorp.jp&jvresize=http%3a%2f%2fwww.wizcorp.jp%2fFrameResize.html&k=JobListing&v=1" target="_blank">Jobvite</a>よりご確認頂けます。</p>
                                     <div class="row-fluid">
-                                    	<address class="adr span6"><i class="fa fa-map-marker"></i>103-0004 東京都中央区<br />
+                                        <address class="adr span6"><i class="fa fa-map-marker"></i>103-0004 東京都中央区<br />
                                             東日本橋3-10-14
                                         </address>
                                         <address class="span6"><span class="phone"><i class="fa fa-user"></i>03-4550-1448</span><br />
