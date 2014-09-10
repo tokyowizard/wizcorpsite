@@ -3,25 +3,43 @@
     "mage": {
         "title": "MAGE",
         "content": "MAGEとは: <br /><i>\"魔法を司るために鍛錬されたヒーロー\"</i><br /><br />または: <br />非同期ゲームエンジン のことである <br /> <br />MAGEを採用することにより、デベロッパーたちはこれまでの煩わしい作業から解放され、純粋なゲーム開発のみに注力することができます。<ul><li>安定した通信基盤</li><li>信頼できる一元化されたデータストレージ</li><li>いかなる状況下でも対応する高いパフォーマンスとスケーラビリティ</li><li>運用中にも頼れる更新環境</li><li>優れた開発環境</li></ul><br />MAGEにはソーシャルゲーム開発及びデプロイプロセスを容易にするために必須な要素が全て備わっています。<ul><li>格段に短い応答時間</li><li>イテレーションの短縮化</li><li>プレーヤー数が数百万を超えるゲームにも対応</li><li>HTML5との高い親和性</li><li>App storeを介さずに更新可能</li><li>運用中でもゲームをダウンさせることなくコードの書換が可能</li></ul>",
-        "image": "<img src=\"../css/dw-page-modern/img/mage.jpg\" />",
+        "image": "<img src=\"../css/dw-page-modern/img/img1_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Constant Development</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Node.js</span><span><i class=\"icon-share\"></i>n/a</span>"
     },
     "drs": {
         "title": "Dead Rising - The Survival",
         "content": "Dead RisingはCapcom社よりパブリッシュされたゾンビを敵に立ち向かうサバイバルゲームです。突如現れた制御不能なゾンビから街を守りぬかなければなりません。PvPでは相手に猛攻撃を与えたり、ゾンビを倒すために力を合わせることもできます。 <br /><br />Features: <ul> <li>ゲームエリアをアンロックするとそこにはサイコパスが待っている</li><li>数百を超えるゾンビミッション</li><li>収集した武器は倉庫に格納</li><li>PvPモードでは他のプレイヤーと競って重要アイテムを獲得</li><li>傭兵を雇って力を補強</li><li>アップグレードをしてベースキャンプを増強</li><li>ゾンビカジノで大儲け</li></ul>",
-        "image": "<img src=\"../uploads/2014/drs/screenshot.png\" />",
+        "image": "<img src=\"../css/dw-page-modern/img/img2_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Capcom / GREE</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Nov, 2012</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5</span><span><i class=\"icon-share\"></i>n/a</span>"
     },
     "tiki": {
         "title": "Tiki Takoo",
         "content": "<i>Tiki Takoo</i>はシンプルで癖になるパズルゲームです。画面上部に表示されるTikiと同じ組み合わせのTikiを画面の中から探し出し、順番通りにタッチして消していきます。ゲームが進むごとに、探しだすTikiの数は多くなり難易度が上がっていきます。コンボやパワーアップまたはフィーバーモードを発動させることによりボーナス得点を獲得することができます。",
-        "image": "<img src=\"../css/dw-page-modern/img/tikitakoo.jpg\" />",
+        "image": "<img src=\"../css/dw-page-modern/img/img3_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634784938/\" target=\"_blank\">Launch Project</a></span>"
     },
     "celulo": {
         "title": "Celulo",
         "content": "Celuloは難解でありながらもプレイヤーを夢中にするパズルゲームです。ゲームの名前にもなっているCeluloをひとつひとつつなぎあわせて、最終的に画面の端からもう一方の端をつなげた時にどれだけ長く複雑な回路を組むことをできるかがポイントまたはボーナス獲得のカギになります。 <br /> <br /> Celuloの洗練されたスタイルの背景に流れるアンビエント/エレクトロサウンドトラックと、シンプルかつ深いゲームプレイはプレイヤーを惹きつける空間を作りだします。Facebookと同期すれば友だちとウィークリートーナメントで対決することができます。",
-        "image": "<img src=\"../css/dw-page-modern/img/celulo.jpg\" />",
+        "image": "<img src=\"../css/dw-page-modern/img/img4_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634795239/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "infernal": {
+        "title": "Infernal Temple",
+        "content": "Infernal Templeはプロシージャル技術で生成されており、立ち向かってくるゾンビを鞭で次々と倒しながら、走り抜けた距離を競う爽快ランナーズゲームです。走行距離が伸びるに連れて敵や毒が頻出しステージの難易度が増し続けます。",
+        "image": "<img src=\"../css/dw-page-modern/img/img5_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id888222057/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "butchers": {
+        "title": "Butchers Escape",
+        "content": "Butchers Escapeはプロシージャル技術で生成された縦スクロール型アクションゲームです。精肉店の罠にはまった子豚マルセルは、一度触れてしまうとたちまちおいしいハムにされてしまうという危険な挽き肉機からうまく身を交わして逃げなければげなければなりません。カトゥーン風グラフィックと共にシンプルでありながら計算しつくされたワンタッチプレイゲームです。",
+        "image": "<img src=\"../css/dw-page-modern/img/img6_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id891618151/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "strikerArena": {
+        "title": "Striker Arena",
+        "content": "UnityとWizcoropのMAGEエンジンを備えた完全3Dゲームは残忍なインドアフットボールバトルです。初回版はバイキングとグラディエーターを主題としておりますが、引き続き様々な部族が追加される予定です。<br /> <br /><i>遥か遠く離れた惑星にて、古代部族たちは「神々のサッカー」と呼ばれる壮絶な戦いを繰り広げていた。10年に1度、彼らはその地ストライカーアリー ナに集い、皇帝の下に戦うのであった。それぞれの部族からは卓越した能力をもつ勇敢な戦士らが誇り高き戦いのために招集された。​​​ストライカーと呼ばれる彼らの流した血と汗は、皇帝の真の超越欲をよりいっそうかきたてた。</i><br /> <br />現在開発進行中 <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "image": "<img src=\"../css/dw-page-modern/img/img7_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     }
 }
