@@ -3,7 +3,7 @@
     "mage": {
         "title": "Mage",
         "content": "Mage: <br /><i>\"A hero who is trained in the use of magic\"</i><br /><br />Also Known As: <br />Magical Asynchronous Game Engine <br /> <br />The main goal of Mage is to provide a platform that allows game developers to only have to think about game design. To achieve this, MAGE solves a number of critical challenges, that developers no longer have to worry about themselves.<ul><li>A reliable communication infrastructure.</li><li>Reliable and unified data storage.</li><li>High performance & scalability, under all circumstances.</li><li>Reliable production operations.</li><li>Excellent developer experience.</li></ul><br />MAGE has all the magical ingredients for making social game development and deployment a breeze: <br /><ul><li>Fast code iterations.</li><li>It's easy to scale to millions of players.</li><li>Ability to push code without going through an app store.</li><li>Designed with HTML5 integration in mind.</li><li>Fast response times, always.</li><li>Designed with production operations in mind, including zero downtime code pushes!</li></ul>",
-        "image": "<img src=\"css/dw-page-modern/img/mage.jpg\" />",
+        "image": "<img src=\"css/dw-page-modern/img/img1_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Constant Development</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Node.js</span><span><i class=\"icon-share\"></i>n/a</span>"
     },
     "drs": {
@@ -15,13 +15,31 @@
     "tiki": {
         "title": "Tiki Takoo",
         "content": "<i>Tiki Takoo</i> is a simple yet addictive puzzle game in which players must eradicate the colorful Bad Tikis by finding the sequence shown at the top of the screen. As the game progresses, the sequences become longer and tougher to find, and players can get bonus points by making combos, using Power-ups or activating Fever Mode.",
-        "image": "<img src=\"css/dw-page-modern/img/tikitakoo.jpg\" />",
+        "image": "<img src=\"css/dw-page-modern/img/img2_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634784938/\" target=\"_blank\">Launch Project</a></span>"
     },
     "celulo": {
         "title": "Celulo",
         "content": "Celulo is a challenging and addictive puzzle game in which players must link the titular Celulos in order to create a circuit connecting the sides of the board. The longer and more complex the circuit, the more points they are awarded. <br /> <br /> Celulo’s fresh visual style, ambient/electro soundtrack and simple yet deep gameplay create an engaging experience, whilst Facebook connectivity allows players to take on their friends in weekly tournaments.",
-        "image": "<img src=\"css/dw-page-modern/img/celulo.jpg\" />",
+        "image": "<img src=\"css/dw-page-modern/img/img3_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634795239/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "infernal": {
+        "title": "Infernal Temple",
+        "content": "Infernal Temple is a procedural runner where you embody a valiant adventurer slaying away zombies with a whip in a dark oppressing ambiance. Difficulty enhances as you progress in the game by increasing the platform, enemy and potion spawns.",
+        "image": "<img src=\"css/dw-page-modern/img/img4_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id888222057/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "butchers": {
+        "title": "Butchers Escape",
+        "content": "Butchers Escape is a procedurally generated down scrolling platformer. Marcel the pig is stuck in a butchers, which is full of hazardous obstacles. Help Marcel dodge the meat grinders and escape the awful truth of becoming a delicious ham. Butchers Escape delivers a loony experience with cartoon style graphics. Perfect for short snack-sessions with an easy yet precise one-touch gameplay. OINK!",
+        "image": "<img src=\"css/dw-page-modern/img/img5_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id891618151/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "strikerArena": {
+        "title": "Striker Arena",
+        "content": "Powered by Unity and Wizcorp's MAGE engine, this fully 3D rendered game is a barbaric indoor football battle, featuring Vikings, Gladiators and more! <br /> <br /><i>On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory. <br /> These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.</i><br /> <br />Game currently in Production. <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "image": "<img src=\"css/dw-page-modern/img/img6_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     }
 }

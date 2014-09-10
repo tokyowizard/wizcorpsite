@@ -23,5 +23,23 @@
         "content": "Celuloは難解でありながらもプレイヤーを夢中にするパズルゲームです。ゲームの名前にもなっているCeluloをひとつひとつつなぎあわせて、最終的に画面の端からもう一方の端をつなげた時にどれだけ長く複雑な回路を組むことをできるかがポイントまたはボーナス獲得のカギになります。 <br /> <br /> Celuloの洗練されたスタイルの背景に流れるアンビエント/エレクトロサウンドトラックと、シンプルかつ深いゲームプレイはプレイヤーを惹きつける空間を作りだします。Facebookと同期すれば友だちとウィークリートーナメントで対決することができます。",
         "image": "<img src=\"../css/dw-page-modern/img/celulo.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> May, 2013</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5, Game Center, Facebook</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id634795239/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "infernal": {
+        "title": "Infernal Temple",
+        "content": "Infernal Templeはプロシージャル技術で生成されており、立ち向かってくるゾンビを鞭で次々と倒しながら、走り抜けた距離を競う爽快ランナーズゲームです。走行距離が伸びるに連れて敵や毒が頻出しステージの難易度が増し続けます。",
+        "image": "<img src=\"../css/dw-page-modern/img/img4_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id888222057/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "butchers": {
+        "title": "Butchers Escape",
+        "content": "Butchers Escapeはプロシージャル技術で生成された縦スクロール型アクションゲームです。精肉店の罠にはまった子豚マルセルは、一度触れてしまうとたちまちおいしいハムにされてしまうという危険な挽き肉機からうまく身を交わして逃げなければげなければなりません。カトゥーン風グラフィックと共にシンプルでありながら計算しつくされたワンタッチプレイゲームです。",
+        "image": "<img src=\"../css/dw-page-modern/img/img5_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id891618151/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "strikerArena": {
+        "title": "Striker Arena",
+        "content": "Unity とWizcoropのMAGEエンジンを備えた完全3Dゲームは残忍なインドアフットボールバトルです。初回版はバイキングとグラディエーターを主題としておりますが、引き続き様々な部族が追加される予定です。<br /> <br /><i>遥 か遠く離れた惑星にて、古代部族たちは「神々のサッカー」と呼ばれる壮絶な戦いを繰り広げていた。10年に1度、彼らはその地ストライカーアリー ナに集い、皇帝の下に戦うのであった。それぞれの部族からは卓越した能力をもつ勇敢な戦士らが誇り高き戦いのために招集された。​​​ストライカーと呼ばれる彼らの流した血と汗は、皇帝の真の超越欲をよりいっそうかきたてた。</i><br /> <br />現在開発進行中 <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "image": "<img src=\"../css/dw-page-modern/img/img6_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     }
 }
