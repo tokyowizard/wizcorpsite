@@ -38,7 +38,7 @@
     },
     "strikerArena": {
         "title": "Striker Arena",
-        "content": "Unity とWizcoropのMAGEエンジンを備えた完全3Dゲームは残忍なインドアフットボールバトルです。初回版はバイキングとグラディエーターを主題としておりますが、引き続き様々な部族が追加される予定です。<br /> <br /><i>遥 か遠く離れた惑星にて、古代部族たちは「神々のサッカー」と呼ばれる壮絶な戦いを繰り広げていた。10年に1度、彼らはその地ストライカーアリー ナに集い、皇帝の下に戦うのであった。それぞれの部族からは卓越した能力をもつ勇敢な戦士らが誇り高き戦いのために招集された。​​​ストライカーと呼ばれる彼らの流した血と汗は、皇帝の真の超越欲をよりいっそうかきたてた。</i><br /> <br />現在開発進行中 <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "content": "UnityとWizcoropのMAGEエンジンを備えた完全3Dゲームは残忍なインドアフットボールバトルです。初回版はバイキングとグラディエーターを主題としておりますが、引き続き様々な部族が追加される予定です。<br /> <br /><i>遥か遠く離れた惑星にて、古代部族たちは「神々のサッカー」と呼ばれる壮絶な戦いを繰り広げていた。10年に1度、彼らはその地ストライカーアリー ナに集い、皇帝の下に戦うのであった。それぞれの部族からは卓越した能力をもつ勇敢な戦士らが誇り高き戦いのために招集された。​​​ストライカーと呼ばれる彼らの流した血と汗は、皇帝の真の超越欲をよりいっそうかきたてた。</i><br /> <br />現在開発進行中 <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
         "image": "<img src=\"../css/dw-page-modern/img/img7_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     }
