@@ -26,14 +26,20 @@
     },
     "infernal": {
         "title": "Infernal Temple",
-        "content": "Stay alive and run as far as you can! Slay away zombies in a procedural retro style platformer with cool 8-bit graphics. Improve your score and challenge your friends on the Game Center.",
+        "content": "Infernal Temple is a procedural runner where you embody a valiant adventurer slaying away zombies with a whip in a dark oppressing ambiance. Difficulty enhances as you progress in the game by increasing the platform, enemy and potion spawns.",
         "image": "<img src=\"css/dw-page-modern/img/img4_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id888222057/\" target=\"_blank\">Launch Project</a></span>"
     },
     "butchers": {
         "title": "Butchers Escape",
-        "content": "Help Marcel the pig to escape from the butchers and not becoming a piece of ham! Avoid obstacles in a procedural platformer with cute cartoon graphics. Improve your score and challenge your friends on the Game Center.",
+        "content": "Butchers Escape is a procedurally generated down scrolling platformer. Marcel the pig is stuck in a butchers, which is full of hazardous obstacles. Help Marcel dodge the meat grinders and escape the awful truth of becoming a delicious ham. Butchers Escape delivers a loony experience with cartoon style graphics. Perfect for short snack-sessions with an easy yet precise one-touch gameplay. OINK!",
         "image": "<img src=\"css/dw-page-modern/img/img5_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> July, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/app/id891618151/\" target=\"_blank\">Launch Project</a></span>"
+    },
+    "strikerArena": {
+        "title": "Striker Arena",
+        "content": "Powered by Unity and Wizcorp's MAGE engine, this fully 3D rendered game is a barbaric indoor football battle, featuring Vikings, Gladiators and more! <br /> <br /><i>On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory. <br /> These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.</i><br /> <br />Game currently in Production. <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "image": "<img src=\"css/dw-page-modern/img/img6_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     }
 }
