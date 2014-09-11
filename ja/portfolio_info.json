@@ -44,7 +44,7 @@
     },
     "ardRi": {
         "title": "Ard Ri Tactics",
-        "content": "Ard Ri Tactics はTaflゲームと呼ばれるゲームのひとつで、ゲール族の古典的なボードゲームす。7×7マスの盤上で、王と他8人の兵士が16人の敵兵を相手に戦います。Ard Ri TacticsはWizcorp初のUnity x MAGEゲームです。",
+        "content": "Ard Ri Tactics はTaflゲームと呼ばれるゲームのひとつで、ゲール族の古典的なボードゲームです。7×7マスの盤上で、王と他8人の兵士が16人の敵兵を相手に戦います。Ard Ri TacticsはWizcorp初のUnity と MAGEを搭載したゲームです。",
         "image": "<img src=\"../css/dw-page-modern/img/img8_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> August, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE, Game Center</span><span><i class=\"icon-share\"></i><a href=\"https://itunes.apple.com/us/app/id909571949?mt=8\" target=\"_blank\">Launch Project</a></span>"
     }
