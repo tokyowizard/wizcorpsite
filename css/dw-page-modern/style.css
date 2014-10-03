@@ -865,6 +865,10 @@ body[class*="landing"] #colophon a:focus,
 	background: #049CDB !important;
 }
 
+.list-inline.social-inline .github a:hover {
+	background: #000000 !important;
+}
+
 /* Social Footer
 -----------------*/ 
 .list-inline.social-inline-footer li a {
@@ -894,6 +898,10 @@ body[class*="landing"] #colophon a:focus,
 
 .list-inline.social-inline-footer .linkedin a:hover {
 	background: #049CDB !important;
+}
+
+.list-inline.social-inline-footer .github a:hover {
+	background: #000000 !important;
 }
 
 
@@ -936,6 +944,12 @@ body[class*="landing"] .list-inline.social-inline .linkedin a:hover,
 .error404 .list-inline.social-inline .linkedin a:hover {
 	border-color: #049CDB !important;
 	color: #049CDB !important;
+}
+
+body[class*="landing"] .list-inline.social-inline .github a:hover,
+.error404 .list-inline.social-inline .linkedin a:hover {
+	border-color: #000000 !important;
+	color: #000000 !important;
 }
 
 /* End Social 
