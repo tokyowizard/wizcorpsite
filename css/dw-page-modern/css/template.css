@@ -5775,7 +5775,7 @@ div.thumbnail {
 .modal-body {
     max-height: 100%;
     overflow-y: visible;
-    padding: 20px 30px 60px;
+    padding: 20px 30px 30px;
     background-color: #fff;
 }
 
@@ -6695,10 +6695,32 @@ body[class*="landing"].ie8 input[type="text"],body[class*="landing"].ie8 input[t
     }
 }
 
-#client1 {
-	background-image:url(../../../../../_site/themes/dw-page-modern/img/client_mobcast.png);
-	display: block;
-	height: 40px;
-	width: 170px;
+.play-store {
+    margin-top: 10px;
+    background-image: url("../../../images/play-store.png");
+    background-repeat: no-repeat;
+    width: 198px;
+    height: 66px;
+    display: inline-block;
 }
-	
+
+.apple-store {
+    margin-top: 10px;
+    background-image: url("../../../images/apple-store.png");
+    background-repeat: no-repeat;
+    width: 198px;
+    height: 66px;
+    display: inline-block;
+}
+
+@media(min-width:599px) {
+    .play-store {
+        margin-left: 7px;
+    }
+}
+
+@media(min-width:599px) {
+    .apple-store {
+        margin-left: 7px;
+    }
+}
