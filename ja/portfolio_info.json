@@ -6,12 +6,6 @@
         "image": "<img src=\"../css/dw-page-modern/img/img1_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Constant Development</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Node.js</span><span><i class=\"icon-share\"></i>n/a</span>"
     },
-    "drs": {
-        "title": "Dead Rising - The Survival",
-        "content": "Dead RisingはCapcom社よりパブリッシュされたゾンビを敵に立ち向かうサバイバルゲームです。突如現れた制御不能なゾンビから街を守りぬかなければなりません。PvPでは相手に猛攻撃を与えたり、ゾンビを倒すために力を合わせることもできます。 <br /><br />Features: <ul> <li>ゲームエリアをアンロックするとそこにはサイコパスが待っている</li><li>数百を超えるゾンビミッション</li><li>収集した武器は倉庫に格納</li><li>PvPモードでは他のプレイヤーと競って重要アイテムを獲得</li><li>傭兵を雇って力を補強</li><li>アップグレードをしてベースキャンプを増強</li><li>ゾンビカジノで大儲け</li></ul>",
-        "image": "<img src=\"../css/dw-page-modern/img/img2_440x330.jpg\" />",
-        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Capcom / GREE</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Nov, 2012</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> HTML5</span><span><i class=\"icon-share\"></i>n/a</span>"
-    },
     "tiki": {
         "title": "Tiki Takoo",
         "content": "<i>Tiki Takoo</i>はシンプルで癖になるパズルゲームです。画面上部に表示されるTikiと同じ組み合わせのTikiを画面の中から探し出し、順番通りにタッチして消していきます。ゲームが進むごとに、探しだすTikiの数は多くなり難易度が上がっていきます。コンボやパワーアップまたはフィーバーモードを発動させることによりボーナス得点を獲得することができます。<br /><a target=\"_blank\" href=\"https://itunes.apple.com/app/id634784938/\"><div class=\"apple-store\"></div></a>",
