@@ -1,4 +1,4 @@
-@import "../font/font-awesome/css/font-awesome.min.css";
+@import "/font/font-awesome/css/font-awesome.min.css";
 
 .dwqa-container .dwqa-btn,.dwqa-container .login-box input[type="submit"] {
     display: inline-block;
