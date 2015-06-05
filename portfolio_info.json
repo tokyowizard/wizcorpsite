@@ -32,7 +32,7 @@
     },
     "strikerArena": {
         "title": "Striker Arena",
-        "content": "Powered by Unity and Wizcorp's MAGE engine, this fully 3D rendered game is a barbaric indoor football battle, featuring Vikings, Gladiators and more! <br /> <br /><i>On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory. <br /> These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.</i><br /> <br />Game currently in Production. <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a>",
+        "content": "Powered by Unity and Wizcorp's MAGE engine, this fully 3D rendered game is a barbaric indoor football battle, featuring Vikings, Gladiators and more! <br /> <br /><i>On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory. <br /> These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.</i><br /> <br />Game currently in Production. <a href=\"http://www.strikerarena.com\" target=\"_blank\">www.strikerarena.com</a><br /><a target=\"_blank\" href=\"https://itunes.apple.com/app/id922828694/\"><div class=\"apple-store\"></div></a>",
         "image": "<img src=\"css/dw-page-modern/img/img7_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong> Q4, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><span><i class=\"icon-share\"></i>In Production</span>"
     },
@@ -41,5 +41,11 @@
         "content": "Ard Ri Tactics is a new take on one of the ancient Gaelic board games in the Tafl family. It is turn based and played on a 7×7 board with a king and eight defenders against sixteen attackers. Ard Ri Tactics is first Wizcorp’s Unity x MAGE game.<br /><a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=jp.wizcorp.ardritactics\"><div class=\"play-store\"></div></a><a target=\"_blank\" href=\"https://itunes.apple.com/us/app/id909571949?mt=8\"><div class=\"apple-store\"></div></a>",
         "image": "<img src=\"css/dw-page-modern/img/img8_440x330.jpg\" />",
         "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong>  August, 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE, Game Center</span><br />"
+    },
+    "axeGrinder": {
+        "title": "Axe Grinder",
+        "content": "Striker Arena: Axe Grinder is a fast-paced arcade game where you get to punish the opponent team that lost against you in the Striker Arena tournament. Achieve the highest score by spilling their blood, multiplying combos, dismembering them and unleashing your frenzy in a flurry of axes.<br />Entirely free, no in-app purchases whatsoever and unlimited play time!<br /><a target=\"_blank\" href=\"https://itunes.apple.com/app/id956442618/\"><div class=\"apple-store\"></div></a>",
+        "image": "<img src=\"css/dw-page-modern/img/img9_440x330.jpg\" />",
+        "detail": "<span class=\"first\"><i class=\"icon-user\"></i><strong>Client:</strong> Wizcorp</span><span><i class=\"icon-calendar\"></i><strong>Date:</strong>  Q4 2014</span><span class=\"first\"><i class=\"icon-certificate\"></i><strong>Skill:</strong> Unity, MAGE</span><br />"
     }
 }
