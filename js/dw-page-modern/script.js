@@ -11,6 +11,8 @@ jQuery(function($){
 
 	// Scroll to top button
 	var scrollTimeout;
+
+	var lang = $('html').attr('lang');
 	
 	$('a.scroll-top').click(function(){
 		$('html,body').animate({scrollTop:0},500);
@@ -124,7 +126,155 @@ jQuery(function($){
 		},function(){
 			$(this).find('.img_wrapper .img_grayscale').stop().animate({opacity:0},200);
 		}
-	)
+	);
+
+	// tumblr
+	function setupTumblr (results) {
+		// Logs to your javascript console.
+
+		var posts = results.response.posts;
+		var html = '';
+
+		for (var i = 0; i < posts.length; i++) {
+			var post = posts[i];
+
+			// format date
+			var date = new Date(post.timestamp * 1000);
+			var month = date.getMonth() + 1;
+			var day = date.getDay();
+			var year = date.getFullYear();
+
+			// format text
+			var body = post.body;
+			// trim html tags
+			var div = document.createElement("div");
+			div.innerHTML = body;
+			var text = div.textContent || div.innerText || "";
+			// keep only beginning of text
+			var nbChars = (lang === 'ja') ? 200 : 400;
+			text = text.substring(0, nbChars);
+			text += '...';
+
+			var msInMonth = 1000 * 60 * 60 * 24 * 30;
+
+			html += '<div class="post">';
+			html += '<div class="post-header">';
+			html += '<div class="post-date"><div class="post-year">' + year + '</div><div class="post-day">' + month + '.' + day + '</div></div>';
+			if (Date.now() - date < msInMonth) {
+				html += '<div class="post-new"></div>';
+			}
+			html += '</div>';
+			html += '<div class="post-title"><a target="blank" href="' + post.post_url + '">' + post.title + '</a></div>';
+			html += '<div class="post-body">' + text + '<a class="more-link" target="blank" href="' + post.post_url + '">More</a></div>';
+			html += '</div>';
+		}
+
+		$('#tumblr-posts')
+			.append(html)
+			.slick({
+			arrows: false,
+			dots: true,
+			infinite: false,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			responsive: [
+				{
+					breakpoint: 979,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 599,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	}
+
+	
+	var tumblrId = (lang === 'ja') ? 'wizcorpnews' : 'wizcorp';
+
+	$.ajax({
+		url: "http://api.tumblr.com/v2/blog/" + tumblrId + ".tumblr.com/posts/text?limit=16&filter=raw",
+		dataType: 'jsonp',
+		success: function(results){
+			setupTumblr(results);
+		}
+	});
+
+	// photos
+	function setupPhotos (data) {
+		var photos = data.photoset.photo;
+		var html = '';
+		var i = 0;
+		for (; i < photos.length; i++) {
+			var photo = photos[i];
+			if (i % 2 === 0) {
+				html += '<div class="column">';
+			}
+			var photoUrl = 'https://farm' + photo.farm + '.staticflickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_n.jpg';
+			var largeUrl = 'https://farm' + photo.farm + '.staticflickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg';
+			html += '<a href="' + largeUrl + '" class="image" style="background-image:url(' + photoUrl + ');"></a>';
+			if (i % 2 === 1) {
+				html += '</div>';
+			}
+		}
+		if (i % 2 === 1) {
+			html += '</div>';
+		}
+
+		var $album = $('#album');
+
+		$album.append(html);
+		$album.slick({
+			arrows: false,
+			dots: true,
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			responsive: [
+				{
+					breakpoint: 979,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 599,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+
+		$album.magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			gallery: { enabled: true }
+		});
+	};
+
+	
+	var api_key = '5e1dd98c9147c89cb9d18a90ff2da4f4';
+	var photoset_id = '72157656591236901';
+	var user_id = '134386578@N04';
+
+	var url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&api_key=' + api_key + '&user_id=' + user_id + '&photoset_id=' + photoset_id + '&jsoncallback=?';
+
+	$.getJSON(url, function(data){
+		setupPhotos(data);
+	});
+	
+	
 
 	/**
 	 * Responsive Iframe 
