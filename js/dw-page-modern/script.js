@@ -208,7 +208,10 @@ jQuery(function($){
 	});
 
 	// photos
-	function setupPhotos (data) {
+
+	var albumsLoaded = 0;
+	function setupPhotos (data, options) {
+		var options = options || {};
 		var photos = data.photoset.photo;
 		var html = '';
 		var i = 0;
@@ -230,48 +233,58 @@ jQuery(function($){
 
 		var $album = $('#album');
 
-		$album.append(html);
-		$album.slick({
-			arrows: false,
-			dots: true,
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			autoplay: true,
-			autoplaySpeed: 3000,
-			responsive: [
-				{
-					breakpoint: 979,
-					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 2
-					}
-				},
-				{
-					breakpoint: 599,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
-					}
-				}
-			]
-		});
+		if (options.first) {
+			$album.prepend(html);
+		} else {
+			$album.append(html);
+		}
+		albumsLoaded++;
 
-		$album.magnificPopup({
-			delegate: 'a',
-			type: 'image',
-			gallery: { enabled: true }
-		});
+		if (albumsLoaded === 2) {
+			$album.slick({
+				arrows: false,
+				dots: true,
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				autoplay: true,
+				autoplaySpeed: 3000,
+				responsive: [
+					{
+						breakpoint: 979,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2
+						}
+					},
+					{
+						breakpoint: 599,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
+					}
+				]
+			});
+
+			$album.magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				gallery: { enabled: true }
+			});
+		}
 	};
-
 	
 	var api_key = '5e1dd98c9147c89cb9d18a90ff2da4f4';
+	var photosetfirst_id = '72157656300999409';
 	var photoset_id = '72157656591236901';
 	var user_id = '134386578@N04';
 
-	var url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&api_key=' + api_key + '&user_id=' + user_id + '&photoset_id=' + photoset_id + '&jsoncallback=?';
+	$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&api_key=' + api_key + '&user_id=' + user_id + '&photoset_id=' + photosetfirst_id + '&jsoncallback=?', function(data){
+		setupPhotos(data, { first: true });
+	});
 
-	$.getJSON(url, function(data){
-		setupPhotos(data);
+	$.getJSON('https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&api_key=' + api_key + '&user_id=' + user_id + '&photoset_id=' + photoset_id + '&jsoncallback=?', function(data){
+		setupPhotos(data, { first: false });
 	});
 	
 	
