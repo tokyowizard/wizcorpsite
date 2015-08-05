@@ -137,7 +137,6 @@ jQuery(function($){
 
 		for (var i = 0; i < posts.length; i++) {
 			var post = posts[i];
-			console.log(post);
 
 			// format date
 			var date = new Date(post.timestamp * 1000);
