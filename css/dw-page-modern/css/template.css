@@ -5888,7 +5888,12 @@ body .icon-tpl-galaxy {
 }
 
 .nav>li {
-    margin-left: 30px;
+    margin-left: 22px;
+}
+@media only screen and (max-width: 1199px) {
+    .nav>li {
+        margin-left: 15px;
+    }
 }
 
 .navbar .nav>li>a {

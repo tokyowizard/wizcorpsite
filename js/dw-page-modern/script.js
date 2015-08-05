@@ -137,11 +137,12 @@ jQuery(function($){
 
 		for (var i = 0; i < posts.length; i++) {
 			var post = posts[i];
+			console.log(post);
 
 			// format date
 			var date = new Date(post.timestamp * 1000);
 			var month = date.getMonth() + 1;
-			var day = date.getDay();
+			var day = date.getDate();
 			var year = date.getFullYear();
 
 			// format text
