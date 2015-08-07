@@ -313,10 +313,6 @@ input[type="color"],
 	padding: 0 15px 30px;
 }
 
-.introducing .block:hover {
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-	border-radius: 3px;
-}
 
 .introducing .section-img {
 	border: none;
@@ -326,10 +322,6 @@ input[type="color"],
 
 .introducing [class*="icon-tpl"] {
 	background-image: url(img/intro-icons.png);
-}
-
-.introducing .block:hover [class*="icon-tpl"] {
-	background-image: url(img/intro-icons-hover.png);
 }
 
 .introducing .section-content-title,
