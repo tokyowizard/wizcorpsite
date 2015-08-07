@@ -170,7 +170,7 @@ jQuery(function($){
 		}
 
 		$('#tumblr-posts')
-			.append(html)
+			.html(html)
 			.slick({
 			arrows: false,
 			dots: true,
@@ -232,6 +232,8 @@ jQuery(function($){
 		}
 
 		var $album = $('#album');
+
+		$album.find('.loadingNotice').remove();
 
 		if (options.first) {
 			$album.prepend(html);

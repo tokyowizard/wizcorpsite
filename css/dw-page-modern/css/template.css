@@ -6151,6 +6151,10 @@ body.page .page {
     margin-top: 20px;
 }
 
+.loadingNotice {
+    text-align: center;
+}
+
 #tumblr-posts {
     margin-top: 60px;
 }
