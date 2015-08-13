@@ -3,7 +3,7 @@ wizcorpsite
 
 Here lies the Wizcorp Website.
 
-### Testing
+### How to submit a PR
 
 - Requirements
  	- Git [http://git-scm.com/downloads](http://git-scm.com/downloads)
@@ -13,8 +13,8 @@ Here lies the Wizcorp Website.
 - Make your changes
 - Commit to your `gh-pages` branch.
 - Push your changes to your repo in your `gh-pages` branch.
-- Check your change on Github at http://<YOURGITHUBID>.github.io/wizcorpsite
-- Include the link http://<YOURGITHUBID>.github.io/wizcorpsite in your PR for others to review.
+- Check your change on Github at http://YOURGITHUBID.github.io/wizcorpsite
+- Include the link http://YOURGITHUBID.github.io/wizcorpsite in your PR for others to review.
 
 
 ### Bug Reporting
