@@ -3,7 +3,7 @@ wizcorpsite
 
 Here lies the Wizcorp Website.
 
-### Testing with Jekyll
+### Testing
 
 - Requirements
  	- Git [http://git-scm.com/downloads](http://git-scm.com/downloads)
