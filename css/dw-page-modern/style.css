@@ -179,6 +179,13 @@ input[type="color"],
 	font-weight: bold;
 	font-size: 13px;
 }
+@media only screen and (max-width: 1199px) {
+    .navbar .nav > li > a,
+	.navbar .nav > li > a:active,
+	.navbar .nav > li > a:focus {
+		font-size: 12px;
+	}
+}
 
 .navbar .nav > li > a:hover,
 .navbar .nav > .active > a,
@@ -306,10 +313,6 @@ input[type="color"],
 	padding: 0 15px 30px;
 }
 
-.introducing .block:hover {
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-	border-radius: 3px;
-}
 
 .introducing .section-img {
 	border: none;
@@ -321,10 +324,6 @@ input[type="color"],
 	background-image: url(img/intro-icons.png);
 }
 
-.introducing .block:hover [class*="icon-tpl"] {
-	background-image: url(img/intro-icons-hover.png);
-}
-
 .introducing .section-content-title,
 .introducing .section-content-title a {
 	font-size: 24px;
@@ -333,6 +332,7 @@ input[type="color"],
 	margin-top: 0;
 }
 
+.section.tumblr,
 .section.portfolio {
 	background: url(img/portfolio-bg.jpg) fixed;
 	background-size: cover;
@@ -509,6 +509,15 @@ input[type="color"],
 
 .project-details {
 	padding: 0 10px 20px;
+}
+
+.about .team .personal {
+	float: left;
+	width: 19.2%;
+	margin-left: 1%;
+}
+.about .team .personal:first-child {
+	margin-left: 0;
 }
 
 .about .team .personal:hover h3 a,
@@ -752,6 +761,7 @@ body[class*="landing"] #colophon a:focus,
 
 @media (max-width: 1280px) {
 	body,
+	.section.tumblr,
 	.section.portfolio {
 		background-size: cover;
 	}
@@ -785,6 +795,12 @@ body[class*="landing"] #colophon a:focus,
 
 	#portfolio .block:first-child {
 		margin-top: 0;
+	}
+
+	.about .team .personal {
+		float: none;
+		width: auto;
+		margin-left: 0;
 	}
 
 	.personal {

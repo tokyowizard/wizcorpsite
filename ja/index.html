@@ -10,6 +10,9 @@
         <link rel="stylesheet" type="text/css" media="all" href="../font/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../css/dw-page-modern/css/template.css" />
         <link rel="stylesheet" type="text/css" media="all" href="../css/dw-page-modern/css/template-responsive.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/magnific-popup/magnific-popup.css" />
 
         <link rel='stylesheet' id='bp-legacy-css-css'    href='../css/buddypress/buddypress.css' type='text/css' media='screen' />
         <link rel='stylesheet' id='contact-form-7-css'   href='../css/contact-form-7/styles.css' type='text/css' media='all' />
@@ -19,6 +22,8 @@
         <script type='text/javascript' src='../js/jquery/jquery.js'></script>
         <script type='text/javascript' src='../js/jquery/jquery-migrate.min.js'></script>
 
+        <script type='text/javascript' src='../js/slick/slick.min.js'></script>
+        <script type='text/javascript' src='../js/magnific-popup/jquery.magnific-popup.min.js'></script>
         <script type='text/javascript' src='../js/dw-page-modern/bootstrap.min.js'></script>
         <script type='text/javascript' src='../js/dw-page-modern/jquery.grayscale.js'></script>
         <script type='text/javascript' src='../js/dw-page-modern/small-tooltip.js'></script>
@@ -74,10 +79,16 @@
                                 <a href="#introducing">推奨サービス</a>
                             </li>
                             <li>
+                                <a href="#tumblr">お役立ち情報</a>
+                            </li>
+                            <li>
+                                <a href="#photos">スナップ</a>
+                            </li>
+                            <li>
                                 <a href="#portfolio">ポートフォリオ</a>
                             </li>
                             <li>
-                                <a href="#team">役員紹介</a>
+                                <a href="#team">主要メンバー</a>
                             </li> 
                             <li>
                                 <a href="#contact">お問い合わせ</a>
@@ -149,6 +160,24 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section id="tumblr" class="section tumblr style-1">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>お役立ち情報</h1>
+                    </div>
+                    <div id="tumblr-posts">
+                    </div>
+                </div>
+            </section>
+            <section id="photos" class="section photos">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>スナップ</h1>
+                    </div>
+                    <div id="album">
                     </div>
                 </div>
             </section>
@@ -468,15 +497,15 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                 <div class="container">
                     <!-- Section title -->
                     <div class="section-title">
-                        <h1>役員紹介</h1>
-                        <p>当社役員のプロフィールを紹介いたします。</p>
+                        <h1>主要メンバー</h1>
+                        <p>当社の主要メンバーをご紹介いたします。</p>
                     </div>
                     <div class="section-content row-fluid">
                         <div class="about">
                             <p class="section-description"></p>
                             <div class="team">
                                 <ul class="thumbnails" >
-                                    <li class="span3 personal first ">
+                                    <li class="personal first ">
                                         <div class="thumbnail">
                                             <a href="http://jp.linkedin.com/in/ghansali"><img src="../images/gh.jpg" alt="Hansali logo"></a>
                                             <div class="caption">
@@ -486,27 +515,37 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="span3 personal ">
+                                    <li class="personal ">
                                         <div class="thumbnail">
-                                            <a href="http://jp.linkedin.com/in/arogaume"><img src="../images/ar.jpg" alt="Rogaume logo"></a>
+                                            <a href="https://twitter.com/stelcheck"><img src="../images/mt.jpg" alt="Trudel logo"></a>
                                             <div class="caption">
-                                                <h3 class="section-content-title"><a href="http://jp.linkedin.com/in/arogaume">Alexandre Rogaume</a></h3>
-                                                <p class="meta">Co-Founder, CCO</p>
-                                                <p style="text-align: justify;">Web広告業界出身の彼は、デザインチームの先頭に立ちユーザーフレンドリーなインターフェースの提供に努めている。ソーシャル/モバイルテクノロジーでのクリエイティブディレクションにおいて幅広く自らのスキルセットを拡げる。</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="span3 personal ">
-                                        <div class="thumbnail">
-                                            <a href="https://twitter.com/stelcheck" target="_blank"><img src="../images/mt.jpg" alt="Trudel logo"></a>
-                                            <div class="caption">
-                                                <h3 class="section-content-title"><a href="https://twitter.com/stelcheck" target="_blank">Marc Trudel</a></h3>
+                                                <h3 class="section-content-title"><a href="https://twitter.com/stelcheck">Marc Trudel</a></h3>
                                                 <p class="meta">CTO</p>
                                                 <p style="text-align: justify;">データセンターインフラ管理、高い拡張性のアプリケーションアーキテクチャー設計経験より、クオリティ保証と顧客満足に重点的に取り組むようチームをリードする。</p>
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="span3 personal hiring ">
+                                    <li class="personal ">
+                                        <div class="thumbnail">
+                                            <a href="http://jp.linkedin.com/in/hironakagomi"><img src="../images/hn.jpg" alt="Nakagomi logo"></a>
+                                            <div class="caption">
+                                                <h3 class="section-content-title"><a href="http://jp.linkedin.com/in/hironakagomi">Hiroyuki Nakagomi</a></h3>
+                                                <p class="meta">Producer</p>
+                                                <p style="text-align: justify;">93年にゲーム業界入り、現セガホールディングスにてシェンムーにおけるアートディレクターなど数々のヒット作品の開発に携わり、その後エレクトリックアーツカナダ社（バンクーバー）にてFIFAシリーズのゲームプロデューサーを勤める。その後カプコンやGREEをなどを経て2014年にWizcorpに入社、現在日本のコンテンツをワールドワイドに広めるためのプロデュースを行う。</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="personal ">
+                                        <div class="thumbnail">
+                                            <a href="#photos"><img src="../images/employees.jpg" alt="Employees logo"></a>
+                                            <div class="caption">
+                                                <h3 class="section-content-title"><a href="#photos">+ 30</a></h3>
+                                                <p class="meta">Employees</p>
+                                                <p>Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１０カ国８言語に及びます。海外の大学でエンジニアリングやマネージメントのマスター資格を取得したブリッジエンジニアやマネージャーが、欧米やアジアをつなぐ架け橋となり、お客様の海外展開にこれまで体験したことのない付加価値を含んだ高品質で的確なローカライズ・カルチャライズを提供します</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="personal hiring ">
                                         <div class="thumbnail">
                                             <a href="mailto:info@wizcorp.jp" target="_blank"><img src="../images/hiring.png" alt=""></a>
                                             <div class="caption">
@@ -548,7 +587,7 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
             <section class="section portfolio">
                 <div class="container">
                     <div class="section-title">
-                        <h1>Company</h1>
+                        <h1>会社情報</h1>
                     </div>
                     <div class="section-content row-fluid">
                         <table class="portfolio table company-info">
@@ -597,7 +636,7 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                                     <p>プレスまたは採用についてのお問い合わせは、こちらからお願い致します。</p>
                                     <div class="row-fluid">
                                         <address class="adr span6"><i class="fa fa-map-marker"></i>103-0004 東京都中央区<br />
-                                            東日本橋3-10-14
+                                            東日本橋3-10-14<br>サンライズ橘6F
                                         </address>
                                         <address class="span6"><span class="phone"><i class="fa fa-user"></i>03-4550-1448</span><br />
                                             <a class="mail" href="mailto:info@wizcorp.jp"><i class="fa fa-envelope"></i>info@wizcorp.jp</a><br><br>
@@ -643,7 +682,7 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
             <div class="container">
                 <div class="copyright">
                     <div class="site-info">
-                        Copyright &copy; 2014 Wizcorp.
+                        Copyright &copy; 2015 Wizcorp.
                         <ul class="list-inline social-inline-footer" style="margin-top:0px">
                             <li class="social facebook"><a href="https://www.facebook.com/Wizcorp" onClick='ga("send", "Footer", "Open", "facebook");' target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="social twitter"><a href="https://www.twitter.com/wizcorp" onClick='ga("send", "Footer", "Open", "twitter");' target="_blank"><i class="fa fa-twitter"></i></a></li>

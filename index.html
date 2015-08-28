@@ -10,6 +10,9 @@
         <link rel="stylesheet" type="text/css" media="all" href="font/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" media="all" href="css/dw-page-modern/css/template.css" />
         <link rel="stylesheet" type="text/css" media="all" href="css/dw-page-modern/css/template-responsive.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup/magnific-popup.css" />
 
         <link rel='stylesheet' id='bp-legacy-css-css'    href='css/buddypress/buddypress.css' type='text/css' media='screen' />
         <link rel='stylesheet' id='contact-form-7-css'   href='css/contact-form-7/styles.css' type='text/css' media='all' />
@@ -19,6 +22,8 @@
         <script type='text/javascript' src='js/jquery/jquery.js'></script>
         <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
 
+        <script type='text/javascript' src='js/slick/slick.min.js'></script>
+        <script type='text/javascript' src='js/magnific-popup/jquery.magnific-popup.min.js'></script>
         <script type='text/javascript' src='js/dw-page-modern/bootstrap.min.js'></script>
         <script type='text/javascript' src='js/dw-page-modern/jquery.grayscale.js'></script>
         <script type='text/javascript' src='js/dw-page-modern/small-tooltip.js'></script>
@@ -72,6 +77,12 @@
                             </li>
                             <li>
                                 <a href="#introducing">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="#tumblr">Publications</a>
+                            </li>
+                            <li>
+                                <a href="#photos">Gallery</a>
                             </li>
                             <li>
                                 <a href="#portfolio">Portfolio</a>
@@ -146,6 +157,26 @@
                                 We don’t just stop at games! <br>We have become prominent leaders in hybrid, native iOS and native Android platform and application development. Having fundamental core knowledge in building great applications for the web means all of our mobile web applications can run on the desktop browser too!
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section id="tumblr" class="section tumblr style-1">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>Publications</h1>
+                    </div>
+                    <div id="tumblr-posts">
+                        <div class="loadingNotice">Loading in progress...</div>
+                    </div>
+                </div>
+            </section>
+            <section id="photos" class="section photos">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>Gallery</h1>
+                    </div>
+                    <div id="album">
+                        <div class="loadingNotice">Loading in progress...</div>                       
                     </div>
                 </div>
             </section>
@@ -466,14 +497,13 @@
                     <!-- Section title -->
                     <div class="section-title">
                         <h1>The Team</h1>
-                        <p>Meet our Executive team.</p>
                     </div>
                     <div class="section-content row-fluid">
                         <div class="about">
                             <p class="section-description"></p>
                             <div class="team">
                                 <ul class="thumbnails" >
-                                    <li class="span3 personal first ">
+                                    <li class="personal first ">
                                         <div class="thumbnail">
                                             <a href="http://jp.linkedin.com/in/ghansali"><img src="images/gh.jpg" alt="Hansali logo"></a>
                                             <div class="caption">
@@ -483,27 +513,37 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="span3 personal ">
+                                    <li class="personal ">
                                         <div class="thumbnail">
-                                            <a href="http://jp.linkedin.com/in/arogaume"><img src="images/ar.jpg" alt="Rogaume logo"></a>
+                                            <a href="https://twitter.com/stelcheck"><img src="images/mt.jpg" alt="Trudel logo"></a>
                                             <div class="caption">
-                                                <h3 class="section-content-title"><a href="http://jp.linkedin.com/in/arogaume">Alexandre Rogaume</a></h3>
-                                                <p class="meta">Co-Founder, CCO</p>
-                                                <p>Coming from the advertising and web industry originally, Alexandre specialised in creating user-friendly interfaces and working with graphic design teams. Alexandre has since expanded his skill set to encompass creative direction in social and mobile technology.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="span3 personal ">
-                                        <div class="thumbnail">
-                                            <a href="https://twitter.com/stelcheck" target="_blank"><img src="images/mt.jpg" alt="Trudel logo"></a>
-                                            <div class="caption">
-                                                <h3 class="section-content-title"><a href="https://twitter.com/stelcheck" target="_blank">Marc Trudel</a></h3>
+                                                <h3 class="section-content-title"><a href="https://twitter.com/stelcheck">Marc Trudel</a></h3>
                                                 <p class="meta">CTO</p>
                                                 <p>Marc draws from his<br>experience of datacenter infrastructure management and designing scalable application architecture to lead Wizcorp as a technology company focused on quality deliveries and customer reassurance.</p>
                                             </div>
                                         </div>
+                                    </li> 
+                                    <li class="personal ">
+                                        <div class="thumbnail">
+                                            <a href="http://jp.linkedin.com/in/hironakagomi"><img src="images/hn.jpg" alt="Nakagomi logo"></a>
+                                            <div class="caption">
+                                                <h3 class="section-content-title"><a href="http://jp.linkedin.com/in/hironakagomi">Hiroyuki Nakagomi</a></h3>
+                                                <p class="meta">Producer</p>
+                                                <p>In the game industry since 1993, Hiroyuki has been involved in the development of a number of hit titles for SEGA such as Shenmue (Art director). He also worked as a producer for FIFA series at Electronic Arts Canada (Vancouver). Then through Capcom and GREE, he joined Wizcorp in 2014 to help spreading Japanese content worldwide.</p>
+                                            </div>
+                                        </div>
                                     </li>
-                                    <li class="span3 personal hiring ">
+                                    <li class="personal ">
+                                        <div class="thumbnail">
+                                            <a href="#photos"><img src="images/employees.jpg" alt="Employees logo"></a>
+                                            <div class="caption">
+                                                <h3 class="section-content-title"><a href="#photos">+ 30</a></h3>
+                                                <p class="meta">Employees</p>
+                                                <p>Wizcorp is a very international company that employs people of 10 different nationalities, covering 8 languages. Our engineers and managers have been studying in universities overseas. Thanks to accurate localisation, we can help you expand abroad and be your bridge between Asia and Europe/US.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="personal hiring ">
                                         <div class="thumbnail">
                                             <a href="http://wizcorp.workable.com/" target="_blank"><img src="images/hiring.png" alt=""></a>
                                             <div class="caption">
@@ -551,8 +591,7 @@
                                 <div class="info span6">
                                     <p>For press inquiries and career opportunities, please send us a message.<br>View our open positions <a href="http://wizcorp.workable.com/" target="_blank">here</a>.</p>
                                     <div class="row-fluid">
-                                        <address class="adr span6"><i class="fa fa-map-marker"></i>Higashi-Nihonbashi 3-10-14<br />
-                                            Chuo-ku, Tokyo 103-0004
+                                        <address class="adr span6"><i class="fa fa-map-marker"></i>Higashi-Nihonbashi 3-10-14<br />Sunrise Tachibana 6F<br>Chuo-ku, Tokyo 103-0004
                                         </address>
                                         <address class="span6"><span class="phone"><i class="fa fa-user"></i>03-4550-1448</span><br />
                                             <a class="mail" href="mailto:info@wizcorp.jp"><i class="fa fa-envelope"></i>info@wizcorp.jp</a><br><br>
@@ -597,7 +636,7 @@
             <div class="container">
                 <div class="copyright">
                     <div class="site-info">
-                        Copyright &copy; 2014 Wizcorp.
+                        Copyright &copy; 2015 Wizcorp.
                         <ul class="list-inline social-inline-footer" style="margin-top:0px">
                             <li class="social facebook"><a href="https://www.facebook.com/Wizcorp" onClick='ga("send", "Footer", "Open", "facebook");' target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="social twitter"><a href="https://www.twitter.com/wizcorp" onClick='ga("send", "Footer", "Open", "twitter");' target="_blank"><i class="fa fa-twitter"></i></a></li>

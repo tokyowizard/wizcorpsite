@@ -3,14 +3,19 @@ wizcorpsite
 
 Here lies the Wizcorp Website.
 
-### Testing with Jekyll
+### How to submit a PR
 
 - Requirements
  	- Git [http://git-scm.com/downloads](http://git-scm.com/downloads)
- 	- Jekyll [http://jekyllrb.com/](http://jekyllrb.com/) 
 - Fork this repository and clone it onto your local machine
-- To test the website locally run: `jekyll -w serve`
-- Open your browser of choice and navigate to [http://localhost:4000](http://localhost:4000)
+- To test the website locally run: `python -m SimpleHTTPServer`
+- Open your browser of choice and navigate to [http://localhost:8000](http://localhost:8000)
+- Make your changes
+- Commit to your `gh-pages` branch.
+- Push your changes to your repo in your `gh-pages` branch.
+- Check your change on Github at http://YOURGITHUBID.github.io/wizcorpsite
+- Include the link http://YOURGITHUBID.github.io/wizcorpsite in your PR for others to review.
+
 
 ### Bug Reporting
 
