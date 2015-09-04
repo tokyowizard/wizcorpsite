@@ -210,6 +210,7 @@ jQuery(function($){
 	// photos
 
 	var albumsLoaded = 0;
+	
 	function setupPhotos (data, options) {
 		var options = options || {};
 		var photos = data.photoset.photo;
@@ -249,6 +250,7 @@ jQuery(function($){
 				slidesToShow: 3,
 				slidesToScroll: 3,
 				autoplay: true,
+				pauseOnHover : false,
 				autoplaySpeed: 3000,
 				responsive: [
 					{
@@ -271,7 +273,15 @@ jQuery(function($){
 			$album.magnificPopup({
 				delegate: 'a',
 				type: 'image',
-				gallery: { enabled: true }
+				gallery: { enabled: true },
+				callbacks: {
+					open: function() {
+						$album.slick('slickPause');
+					},
+					close: function() {
+						$album.slick('slickPlay');
+					}
+				}
 			});
 		}
 	};
