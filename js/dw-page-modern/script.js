@@ -130,22 +130,24 @@ jQuery(function($){
 
 	// tumblr
 	function setupTumblr (results) {
-		// Logs to your javascript console.
 
-		var posts = results.response.posts;
+		var posts = results.posts;
 		var html = '';
 
 		for (var i = 0; i < posts.length; i++) {
 			var post = posts[i];
-
+			if (post.type !== 'regular') {
+				continue;
+			}
+			
 			// format date
-			var date = new Date(post.timestamp * 1000);
+			var date = new Date(post['unix-timestamp'] * 1000);
 			var month = date.getMonth() + 1;
 			var day = date.getDate();
 			var year = date.getFullYear();
 
 			// format text
-			var body = post.body;
+			var body = post['regular-body'];
 			// trim html tags
 			var div = document.createElement("div");
 			div.innerHTML = body;
@@ -164,8 +166,8 @@ jQuery(function($){
 				html += '<div class="post-new"></div>';
 			}
 			html += '</div>';
-			html += '<div class="post-title"><a target="blank" href="' + post.post_url + '">' + post.title + '</a></div>';
-			html += '<div class="post-body">' + text + '<a class="more-link" target="blank" href="' + post.post_url + '">More</a></div>';
+			html += '<div class="post-title"><a target="blank" href="' + post.url + '">' + post['regular-title'] + '</a></div>';
+			html += '<div class="post-body">' + text + '<a class="more-link" target="blank" href="' + post.url + '">More</a></div>';
 			html += '</div>';
 		}
 
@@ -200,10 +202,11 @@ jQuery(function($){
 	var tumblrId = (lang === 'ja') ? 'wizcorpnews' : 'wizcorp';
 
 	$.ajax({
-		url: "http://api.tumblr.com/v2/blog/" + tumblrId + ".tumblr.com/posts/text?limit=16&filter=raw",
+		type: 'GET',
+		url: 'http://' + tumblrId + '.tumblr.com/api/read/json',
 		dataType: 'jsonp',
-		success: function(results){
-			setupTumblr(results);
+		success: function(data){
+			setupTumblr(data);
 		}
 	});
 
