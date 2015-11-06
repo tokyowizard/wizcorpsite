@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         },
         js: {
           // the files to concatenate
-          src: ['js/src/jquery/jquery.js','js/src/jquery/jquery-migrate.min.js','js/src/magnific-popup/jquery.magnific-popup.js','js/src/**/*.js','!js/src/initialize.js'],
+          src: ['js/src/jquery/jquery.js','js/src/**/*.js','!js/src/initialize.js'],
           // the location of the resulting JS file
           dest: 'js/build/scripts.js'
         },

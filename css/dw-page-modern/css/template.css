@@ -6157,6 +6157,7 @@ body.page .page {
 
 #tumblr-posts {
     margin-top: 60px;
+    position:relative;
 }
 
 .tumblr .post {
@@ -6227,6 +6228,7 @@ body.page .page {
 
 #album {
     margin-top: 60px;
+    position:relative;
 }
 #album .slick-slide .image {
     display: block;
