@@ -8,6 +8,16 @@ jQuery( document ).ready( function() {
         type:'inline',
         midClick: true,
         removalDelay: 300,
-        mainClass: 'mfp-fade'
+        mainClass: 'mfp-fade',
+        callbacks: {
+            open: function () {
+                if (this.content.selector === '#portfolio-dofus') {
+                    // if dofus popup, wait 1 second and launch video
+                    setTimeout(function () {
+                        dofusPlayer.playVideo();
+                    }, 1000);
+                }
+            }
+        }
     });
 });

@@ -420,9 +420,8 @@ input[type="color"],
 	background: #fff;
 }
 
-.modal-body .youtubePlayer {
-	width: 440px !important;
-	height: 248px !important;
+#dofusVideo {
+	width: 100%;
 }
 
 .section.blog {

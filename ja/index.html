@@ -218,8 +218,8 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                                                             <button title="%title%" type="button" class="mfp-close close">&#215;</button>
                                                             <div class="modal-body">
                                                                 <h3 class="modal-title">Dofus</h3>
-                                                                <iframe class="youtubePlayer" width="440" height="248" src="https://www.youtube.com/embed/fuxZaUzEajo?rel=0" frameborder="0" allowfullscreen></iframe>
-                                                                <div class="modal-data"><span class="first"><i class="icon-user"></i><strong>Client:</strong> Ankama</span><span><i class="icon-calendar"></i><strong>Date:</strong> Coming soon!</span><span class="first"><i class="icon-certificate"></i><strong>Skill:</strong> HTML5, WebGL, Node.js</span><span><i class="icon-share"></i>In Development</span></div>
+                                                                <div id="dofusVideo"></div>
+                                                                <div class="modal-data"><span class="first"><i class="icon-user"></i><strong>Client:</strong> Ankama</span><span><i class="icon-calendar"></i><strong>Date:</strong> Coming soon !</span><span class="first"><i class="icon-certificate"></i><strong>Skill:</strong> HTML5, WebGL, Node.js</span><span><i class="icon-share"></i>In Development</span></div>
                                                                 <div class="modal-content">
                                                                     欧州最大級MMORPG「DOFUS（ドフス）」の広大な世界と豊富なコンテンツがこの度タブレット版になって登場！
                                                                     ユーモアとマンガをミックスした12の独特なファンタジー世界で、
@@ -595,6 +595,23 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
             
             ga('create', 'UA-40464010-3', 'wizcorp.jp');
             ga('send', 'pageview');
-        </script>   
+        </script>
+
+        <script>
+        // Youtube API
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var dofusPlayer;
+        function onYouTubeIframeAPIReady() {
+            dofusPlayer = new YT.Player('dofusVideo', {
+                height: '248',
+                width: '440',
+                videoId: 'fuxZaUzEajo'
+            });
+        }
+        </script>
     </body>
 </html>
