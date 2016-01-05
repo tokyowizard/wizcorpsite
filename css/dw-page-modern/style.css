@@ -420,6 +420,11 @@ input[type="color"],
 	background: #fff;
 }
 
+.modal-body .youtubePlayer {
+	width: 440px !important;
+	height: 248px !important;
+}
+
 .section.blog {
 	background: url(img/portfolio-bg.jpg) fixed;
 	background-size: cover;
