@@ -420,6 +420,11 @@ input[type="color"],
 	background: #fff;
 }
 
+#dofusVideo {
+	width: 100% !important;
+	height: 248px !important;
+}
+
 .section.blog {
 	background: url(img/portfolio-bg.jpg) fixed;
 	background-size: cover;
