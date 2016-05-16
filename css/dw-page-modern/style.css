@@ -420,7 +420,7 @@ input[type="color"],
 	background: #fff;
 }
 
-#dofusVideo {
+.popupVideo {
 	width: 100% !important;
 	height: 248px !important;
 }
