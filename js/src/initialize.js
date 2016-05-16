@@ -17,6 +17,12 @@ jQuery( document ).ready( function() {
                         dofusPlayer.playVideo();
                     }, 1000);
                 }
+                if (this.content.selector === '#portfolio-gundam') {
+                    // if dofus popup, wait 1 second and launch video
+                    setTimeout(function () {
+                        gundamPlayer.playVideo();
+                    }, 1000);
+                }
             }
         }
     });

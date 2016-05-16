@@ -262,21 +262,37 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
                                                             <li class="span3 block">
                                                                 <div class="thumbnail">
                                                                     <div class="screenshot">
-                                                                        <a href="#portfolio-infernal" class="show-popup"><img src="../css/dw-page-modern/img/img5_240x180.jpg"></a>
+                                                                        <a href="#portfolio-gundam" class="show-popup"><img src="../css/dw-page-modern/img/img5_240x180.jpg"></a>
                                                                     </div>
                                                                     <div class="caption">
                                                                         <h2 class="section-content-title">
-                                                                        <a href="#portfolio-infernal" class="show-popup">Infernal Temple</a>
+                                                                        <a href="#portfolio-gundam" class="show-popup">Gundam Cross War</a>
                                                                         </h2>
-                                                                        <p class="meta">Design &amp; Development</p>
+                                                                        <p class="meta">Development</p>
                                                                     </div>
                                                                 </div>
                                                                 <!-- Portfolio Item Details -->
-                                                                <div id="portfolio-infernal" class="mfp-hide modal-inner">
+                                                                <div id="portfolio-gundam" class="mfp-hide modal-inner">
                                                                     <button title="%title%" type="button" class="mfp-close close">&#215;</button>
-                                                                    <div class="modal-body"> <h3 class="modal-title">Infernal Temple</h3> <div class="modal-image"><img src="../css/dw-page-modern/img/img5_440x330.jpg"></div>
-                                                                    <div class="modal-data"><span class="first"><i class="icon-user"></i><strong>Client:</strong> Wizcorp</span><span><i class="icon-calendar"></i><strong>Date:</strong> July, 2014</span><span class="first"><i class="icon-certificate"></i><strong>Skill:</strong> Unity, Game Center</span><br></div>
-                                                                    <div class="modal-content">Infernal Templeはプロシージャル技術で生成されており、立ち向かってくるゾンビを鞭で次々と倒しながら、走り抜けた距離を競う爽快ランナーズゲームです。走行距離が伸びるに連れて敵や毒が頻出しステージの難易度が増し続けます。<br><a target="_blank" href="https://play.google.com/store/apps/details?id=jp.wizcorp.infernaltemple"><div class="play-store"></div></a><a target="_blank" href="https://itunes.apple.com/app/id888222057/"><div class="apple-store"></div></a></div>
+                                                                    <div class="modal-body"> <h3 class="modal-title">Gundam Cross War</h3>
+                                                                    <div id="gundamVideo"></div>
+                                                                    <div class="modal-data"><span class="first"><i class="icon-user"></i><strong>Client:</strong> Bandai</span><span><i class="icon-calendar"></i><strong>Date:</strong> November, 2015</span><span class="first"><i class="icon-certificate"></i><strong>Skill:</strong> Unity, M.A.G.E.</span><span><i class="icon-share"></i>On App Store / Google Play</span></div>
+                                                                    <div class="modal-content">
+                                                                    <h3>ガンダムクロスウォー　歴戦の撃墜王</h3>
+                                                                    ガンダム史上最高のカードゲームがここに！！
+                                                                    <br>ルールはリアルもデジタルも同じ内容になっているので
+                                                                    <br>リアル対戦でもデジタル対戦でも白熱したバトルが展開される。
+                                                                    <br>君はガンダムの世界で最高のモビルスーツ部隊を指揮する艦長を目指せ！
+                                                                    <hr>
+                                                                    ▼カードを集めてデッキを組め！▼
+                                                                    <br>ゲーム内で手に入るノーマルコインやレアコインがあれば
+                                                                    <br>戦果交換所でデジタルのカードに交換できる！
+                                                                    <br>
+                                                                    <br>▼対戦モードでエースを目指せ！▼
+                                                                    <br>世界のユーザーとオンラインバトル。
+                                                                    <br>世界の猛者を打ち破り、真の艦長を目指すのだ！
+                                                                    <br>
+                                                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bandai.gcw&hl=ja"><div class="play-store"></div></a><a target="_blank" href="https://itunes.apple.com/jp/app/gundam-cross-war-li-zhanno/id1047463857?l=ja&mt=8"><div class="apple-store"></div></a></div>
                                                                     <div class="modal-data-button"></div> </div>
                                                                 </div>
                                                                 <!-- End Portfolio Item Details -->
@@ -605,11 +621,17 @@ Wizcorpには国際的に活躍する開発者が多く在籍しその幅は１�
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         var dofusPlayer;
+        var gundamPlayer;
         function onYouTubeIframeAPIReady() {
             dofusPlayer = new YT.Player('dofusVideo', {
                 height: '248',
                 width: '440',
                 videoId: 'fuxZaUzEajo'
+            });
+            gundamPlayer = new YT.Player('gundamVideo', {
+                height: '248',
+                width: '440',
+                videoId: '260Rh2dvLxc'
             });
         }
         </script>
