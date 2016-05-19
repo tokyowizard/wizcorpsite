@@ -18,7 +18,7 @@ jQuery( document ).ready( function() {
                     }, 1000);
                 }
                 if (this.content.selector === '#portfolio-gundam') {
-                    // if dofus popup, wait 1 second and launch video
+                    // if gundam popup, wait 1 second and launch video
                     setTimeout(function () {
                         gundamPlayer.playVideo();
                     }, 1000);
