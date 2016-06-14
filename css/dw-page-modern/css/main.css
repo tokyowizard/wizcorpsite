@@ -6249,6 +6249,11 @@ body .icon-tpl-galaxy {
     background-position: -120px 0;
 }
 
+body .icon-html5 {
+    background-position: 0 0;
+    background-image: url("../img/html5logo.png");
+}
+
 .wpcf7-not-valid {
     background-color: #fff!important;
     color: #b94a48!important;
