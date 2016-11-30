@@ -2,12 +2,18 @@
   "name": "wizcorpsite",
   "version": "1.0.0",
   "description": "Home Page for Wizcorp",
+  "scripts": {
+    "build": "grunt"
+  },
+  "pre-commit": ["build"],
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-jshint": "^0.11.3",
-    "grunt-contrib-uglify": "^0.10.0"
+    "grunt-contrib-uglify": "^0.10.0",
+    "pre-commit": "^1.1.3"
   }
 }
