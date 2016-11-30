@@ -1,11 +1,10 @@
-jQuery( document ).ready( function() {
-    jQuery( 'a.confirm').click( function() {
-        if ( confirm( 'Are you sure?' ) )
-        return true; else return false;
+jQuery(document).ready(function() {
+    jQuery('a.confirm').click(function() {
+        return confirm('Are you sure?');
     });
 
     jQuery('.show-popup').magnificPopup({
-        type:'inline',
+        type: 'inline',
         midClick: true,
         removalDelay: 300,
         mainClass: 'mfp-fade',
@@ -17,6 +16,7 @@ jQuery( document ).ready( function() {
                         dofusPlayer.playVideo();
                     }, 1000);
                 }
+
                 if (this.content.selector === '#portfolio-gundam') {
                     // if gundam popup, wait 1 second and launch video
                     setTimeout(function () {

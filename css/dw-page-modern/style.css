@@ -8,11 +8,11 @@
  *  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
 	background: url(../../images/header-bg.jpg) fixed no-repeat top center;
-	background-size: 100% auto; 
+	background-size: 100% auto;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 22px;
@@ -24,7 +24,7 @@ body {
     body {
 	   background: url(../../images/header-bg-mob.jpg) fixed no-repeat top center;
     }
-} 
+}
 
 .error-page{
     background: url(../../images/flying.jpg) fixed no-repeat top center;
@@ -34,7 +34,7 @@ body {
     .error-page{
         background: url(../../images/flying-mob.jpg) fixed no-repeat top center;
     }
-} 
+}
 
 a {
 	color: #047ecc;
@@ -508,7 +508,7 @@ input[type="color"],
 }
 
 .section.blog .carousel-nav li.active span,
-.section.blog .carousel-nav li:hover span { 
+.section.blog .carousel-nav li:hover span {
 	background: #fff;
 }
 
@@ -855,8 +855,8 @@ body[class*="landing"] #colophon a:focus,
 }
 
 
-/* Social 
------------------*/ 
+/* Social
+-----------------*/
 .list-inline.social-inline li a {
 	background: #ddd;
 	color: #fff;
@@ -891,7 +891,7 @@ body[class*="landing"] #colophon a:focus,
 }
 
 /* Social Footer
------------------*/ 
+-----------------*/
 .list-inline.social-inline-footer li a {
 	background: #ddd;
 	color: #fff;
@@ -973,12 +973,12 @@ body[class*="landing"] .list-inline.social-inline .github a:hover,
 	color: #000000 !important;
 }
 
-/* End Social 
------------------*/ 
+/* End Social
+-----------------*/
 
 
-/* Buddypress 
------------------*/ 
+/* Buddypress
+-----------------*/
 #buddypress button:hover,
 #buddypress a.button:hover,
 #buddypress input[type=submit]:hover,
@@ -1044,7 +1044,7 @@ body[class*="landing"] .list-inline.social-inline .github a:hover,
 }
 
 /* End Buddypress
------------------*/ 
+-----------------*/
 
 .socialicons {
   display: block;
