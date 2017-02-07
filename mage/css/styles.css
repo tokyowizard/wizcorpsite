@@ -30,8 +30,8 @@ body {
 	}
 }
 
-@media screen and (max-width: 760px) {
-	.hideOn760Less {
+@media screen and (max-width: 790px) {
+	.hideOn790Less {
 		display: none;
 	}
 }
