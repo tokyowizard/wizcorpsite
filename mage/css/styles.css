@@ -8,31 +8,31 @@ body {
 
 @media screen and (min-width: 320px) {
 	section {
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.hideOn320Less {
-		display: none;
+		display: none !important;
 	}
 }
 
 @media screen and (max-width: 490px) {
 	.hideOn490Less {
-		display: none;
+		display: none !important;
 	}
 }
 
 @media screen and (max-width: 710px) {
 	.hideOn710Less {
-		display: none;
+		display: none !important;
 	}
 }
 
 @media screen and (max-width: 790px) {
 	.hideOn790Less {
-		display: none;
+		display: none !important;
 	}
 }
 
@@ -134,37 +134,33 @@ p {
     background-position: right;
 }
 
+.mageInNumbers .row {
+	display: table;
+	margin:	10px 0;
+}
+
 .mageInNumbers .fa {
-    float: left;
+	display: table-cell;
+	width: 1px;
     font-size: 30px;
+	vertical-align: top;
 }
 
 .mageInNumbers .iconGear {
 	padding: 5px 9px 0 0;
-    height: 40px;
-}
-
-.mageInNumbers .iconGear + p {
-	min-height: 40px;
 }
 
 .mageInNumbers .iconExpand {
 	padding: 5px 16px 0 0;
-    height: 60px;
-}
-
-.mageInNumbers .iconExpand + p {
-	min-height: 60px;
 }
 
 .mageInNumbers .iconMobile {
 	padding: 0px 20px 0 0;
-    height: 100px;
     font-size: 50px;
 }
 
-.mageInNumbers .iconMobile + p {
-	min-height: 100px;
+.mageInNumbers p {
+	display: table-cell;
 }
 
 
