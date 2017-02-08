@@ -1,0 +1,228 @@
+body {
+	margin: 0px;
+	min-width: 320px;
+
+	font-family: "Trebuchet MS", "Arial Narrow", ArialMT;
+	color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) {
+	section {
+		overflow-x: hidden !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.hideOn320Less {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 529px) {
+	.hideOn530Less {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 530px) {
+	.showOn530Less {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.hideOn490Less {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	.hideOn710Less {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.hideOn790Less {
+		display: none !important;
+	}
+}
+
+section {
+	min-width: 320px;
+	overflow-y: hidden;
+}
+
+section .content {
+	position: relative;
+	padding: 50px 50px;
+	margin: 0 auto;
+
+	min-width: 220px;
+	max-width: 740px;
+}
+
+p, h1, h2 {
+	position:relative;
+	z-index: 100;
+}
+
+p {
+	font-size: 16px;
+}
+
+.jp {
+	font-size: 13px;
+}
+
+
+.whatIsMage {
+	background: linear-gradient(to bottom right, #291940, #6e81a1);
+}
+
+.whatIsMage .mageCard {
+	position: absolute;
+
+	top: 65px;
+	left: 305px;
+	width: 767px;
+	height: 470px;
+
+	background-image: url('../images/mage_card.png');
+}
+
+.whatIsMage h1 {
+	font-size: 62px;
+}
+
+.whatIsMage .txtBlock {
+	padding-left: 15px;
+	border-left: 3px solid #f76626;
+}
+
+.whatIsMage p {
+	font-size: 22px;
+}
+
+.whatIsMage .jp {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+
+.thePhilosophy {
+	text-align: right;
+	color: #14223f;
+
+	background: linear-gradient(to bottom, #aab3c6, #e2ecfe);
+}
+
+.thePhilosophy h2 {
+	font-size: 32px;
+}
+
+
+
+.mageInNumbers {
+	background: linear-gradient(to bottom, #6d81a3, #4c5b78);
+}
+
+.mageInNumbers h2 {
+	font-size: 32px;
+}
+
+.mageInNumbers .mageCards {
+	position: relative;
+	margin-right: -140px;
+	top: -20px;
+	left: -150px;
+
+	float: left;
+	width: 366px;
+	height: 408px;
+
+	background-image: url('../images/mage_cards.png');
+	background-position: right;
+}
+
+.mageInNumbers .row {
+	display: table;
+	margin:	10px 0;
+}
+
+.mageInNumbers .fa {
+	display: table-cell;
+	width: 1px;
+	font-size: 30px;
+	vertical-align: top;
+}
+
+.mageInNumbers .iconGear {
+	padding: 5px 9px 0 0;
+}
+
+.mageInNumbers .iconExpand {
+	padding: 5px 16px 0 0;
+}
+
+.mageInNumbers .iconMobile {
+	padding: 0px 20px 0 0;
+	font-size: 50px;
+}
+
+.mageInNumbers p {
+	display: table-cell;
+}
+
+
+
+.whyUseMage {
+	background: linear-gradient(to bottom right, #111f3b, #526283);
+}
+
+.whyUseMage h2 {
+	font-size: 36px;
+}
+
+.whyUseMage .mageFireball {
+	position: absolute;
+
+	top: 160px;
+	left: 480px;
+	width: 434px;
+	height: 346px;
+
+	background-image: url('../images/fireball.png');
+}
+
+.whyUseMage p {
+	padding-left: 15px;
+	border-left: 3px solid #f76626;
+}
+
+
+
+.footer {
+	background: linear-gradient(to bottom right, #291940, #6e81a1);
+}
+
+.footer .content {
+	padding: 50px 50px 0 50px;
+}
+
+.footer a {
+	color: #FF8115;
+}
+
+.footer a:visited {
+	 color: #FF8115;
+ }
+
+.footer p.copyright {
+	margin-top: 80px;
+	text-align: right;
+	font-family: "Helvetica";
+	font-size: 12px;
+	opacity: 0.5;
+}
