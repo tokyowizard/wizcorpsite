@@ -2,7 +2,7 @@ body {
     margin: 0px;
 	min-width: 320px;
 
-    font-family: Arial Narrow, ArialMT;
+    font-family: "Trebuchet MS", "Arial Narrow", ArialMT;
     color: #FFFFFF;
 }
 
@@ -16,6 +16,18 @@ body {
 	.hideOn320Less {
 		display: none !important;
 	}
+}
+
+@media screen and (max-width: 529px) {
+    .hideOn530Less {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 530px) {
+    .showOn530Less {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -199,7 +211,16 @@ p {
 	padding: 50px 50px 0 50px;
 }
 
+.footer a {
+    color: #FF8115;
+}
+
+.footer a:visited {
+     color: #FF8115;
+ }
+
 .footer p.copyright {
+    margin-top: 80px;
     text-align: right;
     font-family: "Helvetica";
     font-size: 12px;
