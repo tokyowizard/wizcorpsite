@@ -23,6 +23,13 @@ jQuery(document).ready(function() {
                         gundamPlayer.playVideo();
                     }, 1000);
                 }
+
+                if (this.content.selector === '#portfolio-pochamogu') {
+                    // if pochamogu popup, wait 1 second and launch video
+                    setTimeout(function () {
+                        pochamoguPlayer.playVideo();
+                    }, 1000);
+                }
             }
         }
     });
