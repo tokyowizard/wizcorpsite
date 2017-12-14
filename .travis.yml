@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "8"
+
+branches:
+  only:
+    - gh-pages
+
+# Install AWS CLI
+before_install:
+  - pip install awscli --upgrade --user
+  - echo 'export PATH=~/.local/bin:$PATH' >> ~/.bash_profile
+
+# Sync the S3 bucket.
+# The environment variables must be set in travis-ci.org: https://travis-ci.org/YOUR_USER/YOUR_REPO/settings
+#  - AWS_ACCESS_KEY_ID
+#  - AWS_SECRET_ACCESS_KEY
+#  - AWS_DEFAULT_REGION
+script:
+  - source ~/.bash_profile
+  - aws s3 sync --delete . s3://www.wizcorp.jp --exclude ".*"
